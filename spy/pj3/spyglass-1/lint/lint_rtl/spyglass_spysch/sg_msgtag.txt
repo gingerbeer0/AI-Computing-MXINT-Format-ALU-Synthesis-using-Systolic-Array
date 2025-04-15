@@ -1,0 +1,106 @@
+27432 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+1
+27433 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+2
+27434 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+3
+27435 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+4
+27436 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+5
+27437 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+6
+27695 "Domain_Matrix01" 1
+"DomainMatrix_SS"
+2
+27696 "Domain_Matrix01" 1
+"Open_Sp_Sheet"
+["./spyglass-1/lint/lint_rtl/spyglass_reports/sdc2sgdc/Domain/clock_TOP_domain_matrix_0.csv@@noofheadercol:3"]
+27697 "SDC_Mapping01" 1
+"SDCMapping_TAG"
+1
+27699 "SDC_Mapping01" 1
+"Open_Sp_Sheet"
+["./spyglass-1/lint/lint_rtl/spyglass_reports/sdc2sgdc/sdcMapping.csv"]
+-1 "CheckCelldefine" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "Domain_Matrix01" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "INFO_1010" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "RegInputOutput-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[63]
+"RULEGROUP"
+["morelint"]
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[42]
+"RULEGROUP"
+["morelint"]
+-1 "SDC2SGDC_INFO" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_106" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_214" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_Mapping01" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_5142" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_92" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "W287b" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[92]
+"RULEGROUP"
+["lint/Instance"]

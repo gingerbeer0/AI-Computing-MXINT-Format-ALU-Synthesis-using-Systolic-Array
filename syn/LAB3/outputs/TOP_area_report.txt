@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : TOP
+Version: S-2021.06-SP4
+Date   : Sun Dec 22 06:14:47 2024
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /home/eda/soc/lib/gpdk/32n/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+Number of ports:                        64501
+Number of nets:                        189804
+Number of cells:                       144624
+Number of combinational cells:         119840
+Number of sequential cells:             24473
+Number of macros/black boxes:               0
+Number of buf/inv:                       9222
+Number of references:                      12
+
+Combinational area:             292446.805749
+Buf/Inv area:                    13005.819362
+Noncombinational area:          174532.378502
+Macro/Black Box area:                0.000000
+Net Interconnect area:          368894.175069
+
+Total cell area:                466979.184252
+Total area:                     835873.359320
+1

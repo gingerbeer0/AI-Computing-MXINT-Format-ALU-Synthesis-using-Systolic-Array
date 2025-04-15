@@ -1,0 +1,1210 @@
+SpyGlass run started at 11:03:29 PM on Dec 21 2024 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vQ-2020.03-SP2-3
+Synopsys TestMAX(TM)
+Last compiled on Jan 21 2021
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+
+Running SpyGlass 64-bit Executable: /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/obj/check.Linux4
+
+RULE-CHECKING IN MIXED MODE
+Loading Policy: spyglass (Version: SpyGlass_vQ-2020.03-SP2-03) from path: /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+##build_id : Q-2020.03-SP2-3
+##system   : Linux dice 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64
+##cwd      : /mnt/home/dice12/dice/proj3/spy/pj3
+##lang     : Verilog+VHDL
+##args     : -lib WORK ./spyglass-1/WORK \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -nl \
+             -batch \
+             -policy='none' \
+             -wdir './spyglass-1/Design_Read' \
+             -mixed \
+             --goal_info 'Design_Read@' \
+             -templatedir '/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read' \
+             --template_info 'Design_Read' \
+             -projectwdir './spyglass-1' \
+             -64bit  \
+             saed32nm_hvt.v \
+             ../../syn/LAB3/outputs/TOP_gate.v
+
+##verbosity level   : 2
+##exact cmdline arg : -batch -project spyglass-1.prj -designread  -64bit
+##spyglass_run.csh begins :
+;	cd /mnt/home/dice12/dice/proj3/spy/pj3
+;	setenv ATRENTA_LICENSE_FILE 26585@143.248.230.161:27020@163.180.160.78
+;	setenv SPYGLASS_LD_PRELOAD /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libreplacemalloc.so
+;	setenv SPYGLASS_DW_PATH /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/dw_support
+;	/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/bin/spyglass  -batch -project spyglass-1.prj -designread  -64bit
+##spyglass_run.csh ends
+##files    : saed32nm_hvt.v \
+             ../../syn/LAB3/outputs/TOP_gate.v
+
+
+INFO [6]    Work Directory './spyglass-1/WORK' does not exist.
+
+INFO [75]    Creating the Work Directory './spyglass-1/WORK/64' for 64bit  precompiled dump.
+Checking Rule ZeroSizeFile (Rule 1 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck01 (Rule 2 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 3 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 4 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 5 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AbstractInterface (Rule 6 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoleteRules (Rule 7 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportDeprecatedRules (Rule 8 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 9 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 10 of total 120) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_clock05 (Rule 11 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 12 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 13 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_path03 (Rule 14 of total 120) .... done (Time = 0.00s, Memory = 40.0K)
+Checking Rule SGDC_require_value03 (Rule 15 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 16 of total 120) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 17 of total 120) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 18 of total 120) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 19 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 20 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 21 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 22 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 23 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 24 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 25 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 26 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 27 of total 120) .... done (Time = 0.00s, Memory = -8.0K)
+Checking Rule SGDC_waive08 (Rule 28 of total 120) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive09 (Rule 29 of total 120) .... done (Time = 0.00s, Memory = -8.0K)
+Checking Rule SGDC_waive10 (Rule 30 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 31 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 32 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 33 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 34 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 35 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 36 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 37 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 38 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 39 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 40 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 41 of total 120) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_libgroup01 (Rule 42 of total 120) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_libgroup02 (Rule 43 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 44 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 45 of total 120) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_ungroup01 (Rule 46 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 47 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 48 of total 120) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port15 (Rule 49 of total 120) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port18 (Rule 50 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 51 of total 120) .... done (Time = 0.00s, Memory = 112.0K)
+Checking Rule CMD_ignorelibs01 (Rule 52 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 53 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 54 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 55 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis started: 0 sec, 0.70 sec, 496808 KB, 2258800 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis started: 0 sec, 0.70 sec, 496808 KB, 2258800 KB
+ Analyzing source file "saed32nm_hvt.v" ....
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ Analyzing source file "../../syn/LAB3/outputs/TOP_gate.v" ....
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis finished: 2 sec, 2.41 sec, 717360 KB, 2470968 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis finished: 2 sec, 1.71 sec, 220552 KB, 212168 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 2 sec, 2.42 sec, 717400 KB, 2470968 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration started: 0 sec, 0.00 sec, 40 KB, 0 KB
+ Elaborating Top Verilog Design Unit 'AND4X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ANTENNA_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AO21X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AO221X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AO222X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOBUFX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOBUFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOBUFX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AODFFARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AODFFARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AODFFNARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AODFFNARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOI21X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOI21X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOI221X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOI221X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOI222X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOI22X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOINVX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOINVX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'AOINVX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'BSLEX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'BSLEX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'BSLEX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'BUSKP_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLNPRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLNPRX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLNPSX16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLNPSX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLNPSX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLNPSX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLPPRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLPPRX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLPPSX16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLPPSX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLPPSX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CGLPPSX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'CLOAD1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DCAP_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DEC24X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DEC24X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DELLN1X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DELLN2X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DELLN3X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASRNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASRNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASRQX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASRQX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFSSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFSSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DFFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DHFILLH2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DHFILLHLHLS11_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'DHFILLHL2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FADDX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOT2X16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOT2X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOT2X32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOT2X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOT2X8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOTX16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOTX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOTX32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOTX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'FOOTX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEAD2X16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEAD2X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEAD2X32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEAD2X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEAD2X8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEADX16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEADX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEADX32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEADX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'HEADX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'IBUFFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'IBUFFX32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'IBUFFX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'IBUFFX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'INVX16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'INVX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'INVX32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDAOX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDAOX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDAOX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLANDAOX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORAOX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORAOX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORAOX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'ISOLORAOX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASRNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASRNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASRQX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASRQX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LATCHX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LATCHX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LNANDX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LNANDX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLSSX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLSSX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLSSX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENCLSSX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENSSX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENSSX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENSSX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNENSSX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNSSX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNSSX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNSSX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNSSX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSDNX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENCLX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENCLX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENCLX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPENCLX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'LSUPX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'MUX21X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'MUX41X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'MUX41X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NAND3X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NAND3X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NAND4X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NMT1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NMT2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NMT3_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NOR2X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NOR2X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NOR3X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NOR3X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NOR3X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'NOR4X0_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OA221X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OA222X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OAI21X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OAI221X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OAI222X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OAI222X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OAI22X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OR2X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OR3X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OR3X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OR4X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OR4X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'OR4X4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'PGX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'PGX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'PGX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'PMT1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'PMT2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'PMT3_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFASRSX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFASRSX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFSSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFSSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SDFFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SHFILL2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SHFILL3_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SHFILL1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SHFILL64_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'SHFILL128_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TIEH_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TIEL_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TNBUFFX16_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TNBUFFX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TNBUFFX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TNBUFFX32_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TNBUFFX4_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TNBUFFX8_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'XNOR2X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'XNOR2X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'XNOR3X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'XNOR3X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'XOR3X1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'XOR3X2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASRNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASRNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASRQX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASRQX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRARX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRARX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASRQX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASRQX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASRNX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASRNX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRASRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFNSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRSSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRSSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RDFFSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFNSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRASX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRASX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRSSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRSSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRX1_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'RSDFFSRX2_HVT' .....
+ done
+ Elaborating Top Verilog Design Unit 'TOP' .....
+ done
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 3 sec, 3.25 sec, 788464 KB, 2545296 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 1 sec, 0.83 sec, 71064 KB, 74328 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 3 sec, 3.25 sec, 788464 KB, 2545296 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker started: 0 sec, 0.00 sec, 0 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 3 sec, 3.35 sec, 788472 KB, 2545296 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker finished: 0 sec, 0.10 sec, 8 KB, 0 KB
+Checking Rule ElabSummary (Rule 56 of total 120) .... done (Time = 0.11s, Memory = 16.0K)
+Checking Rule ReportCheckDataSummary (Rule 57 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./spyglass-1/Design_Read/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Reading waiver file "./spyglass-1/Design_Read/spyglass_spysch/constraint/spg_autogenerated_delete_waivers.sgdc" ...
+ Generating SGDC file "./spyglass-1/Design_Read/spyglass_spysch/constraint/pragma2Constraint.sgdc" from pragmas in HDL source files ....
+ Generating WAIVER file "./spyglass-1/Design_Read/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule SGDC_waive37 (Rule 58 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule DetectTopDesignUnits (Rule 59 of total 120) Detected 1 top level design units: 
+     TOP
+ .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed. (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_testmode03 (Rule 60 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 61 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 62 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 63 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 64 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 65 of total 120) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 66 of total 120) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_reset02 (Rule 67 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset03 (Rule 68 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 69 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 70 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 71 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 72 of total 120)
+##SGDEBUG [BENCHMARK_DATA]: Number of RTL Design Units = 357
+##SGDEBUG: RTL statistics for Verilog design units:
+##SGDEBUG[BENCHMARK_DATA]: RTL Ports = 5743 64745 4378
+##SGDEBUG[BENCHMARK_DATA]: RTL Insts = 146461
+##SGDEBUG[BENCHMARK_DATA]: RTL Nets = 127841 133155 682
+##SGDEBUG[BENCHMARK_DATA]: RTL Terms = 627143 665016 2969
+
+##SGDEBUG: NOTE: Following estimated data is applicable for structural designs only.
+##SGDEBUG:     In case of RTL designs, this data may differ significantly from the actual figure.
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Insts = 394894
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Nets = 720032
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Terms = 1394096
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Paths = 29147
+ .... done (Time = 0.17s, Memory = 16.0K)
+Checking Rule CheckCelldefine (Rule 73 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 74 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 75 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 76 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 77 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 78 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 79 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 80 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 81 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkCMD_mthresh (Rule 82 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AnalyzeBBox (Rule 83 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 57 of total 120) .... done (Time = 0.00s, Memory = 0.0K)
+
+Applying user specified and internally generated waivers on violation database .... done (Time = 0.07s)
+
+Generating data for Console...
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 2549344 KB for entire run at 'SGDC_memorywritepin04.Exit' stage
+##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
+##SGDEBUG [VMPEAK_MEMORY]: 2549360 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 504008 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 5 sec, 5.07 sec, 791968 KB, 2549340 KB
+##SGDEBUG [BENCHMARK_INCR]: Rule checking finished: 2 sec, 1.71 sec, 3496 KB, 4044 KB
+
+
+=====================================================================================
+							Rule Parameter Table
+=====================================================================================
+
+	PARAMETER-NAME                                     VALUE                DEFAULT VALUE
+-------------------------------------------------------------------------------------
+	-allow_clock_on_output_port                        no                   no
+	-check_clock_group_violations                      no                   no
+	-debug_proc                                        no                   no
+	-force_genclk_for_txv                              no                   no
+	-library_gen_clock_naming                          yes                  yes
+	-netlist_clock_polarity                            yes                  yes
+	-populate_comboelements_for_minmax_in_fromto       no                   no
+	-post_clock_group_population                       no                   no
+	-preserve_path                                     no                   no
+	-pt                                                no                   yes
+	-show_all_sdc_violations                           no                   no
+	-show_sdc_progress                                 no                   no
+	-suppress_sdc_violation_in_abstract                no                   no
+	-tc_cache_empty_collections                        no                   no
+	-tc_disable_caching                                no                   no
+	-tc_disable_ignored_command_dump                   yes                  yes
+	-tc_enable_sdc_393                                 no                   no
+	-tc_ignored_commands                               unspecified          unspecified
+	-tc_stop_parsing_ignored_commands                  yes                  yes
+	-truncate_through                                  yes                  yes
+	-write_sdc                                         no                   no
+=====================================================================================
+
+
+
+=====================================================================================
+                               Rule Status Table
+
+ RULE-NAME                      POLICY-NAME     ENABLED VIOL-CNT RULE-TYPE   ERROR-MSG         
+=====================================================================================
+ CheckCelldefine      (Verilog) SpyGlass        Yes            1 RTLDULIST      -               
+ ElabSummary                    SpyGlass        Yes            1 SETUP          -               
+ DetectTopDesignUnits           SpyGlass        Yes            1 RTLALLDULIST   -               
+-------------------------------------------------------------------------------------
+Note: VSDU type of rules (as seen in the above table) are not run on
+      unsynthesized modules reported by 'ErrorAnalyzeBBox/InfoAnalyzeBBox' messages
+      (Please see messages starting with keyword 'UnsynthesizedDU')
+
+##status : SpyGlass Rule Checking Complete.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      Design_Read
+   Command-line read  :      0 error,      0 warning,      0 information message 
+   Design Read        :      0 error,      0 warning,      3 information messages
+      Found 1 top module:
+         TOP   (file: ../../syn/LAB3/outputs/TOP_gate.v)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      0 warning,      3 information messages
+
+  Total Number of Generated Messages     :         3 (0 error, 0 warning, 3 Infos)
+  Number of Reported Messages            :         3 (0 error, 0 warning, 3 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './spyglass-1/Design_Read/spyglass.vdb' to './spyglass-1/Design_Read/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './spyglass-1/Design_Read/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './spyglass-1/Design_Read/spyglass.vdb' to './spyglass-1/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './spyglass-1/Design_Read/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './spyglass-1/consolidated_reports/Design_Read/'.
+
+
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      Design_Read
+   Top Module         :      TOP
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/consolidated_reports/Design_Read/ 
+
+   SpyGlass LogFile: 
+    /mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/Design_Read/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+     <Not Available>
+  
+
+   Technology Reports:  
+     <Not Available>
+   
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      0 Warnings,      3 Infos
+---------------------------------------------------------------------------------------------------
+   
+---------------------------------------------------------------------------------------------------
+ 
+SpyGlass Exit Code 0 (Rule-checking completed without errors or warnings)
+SpyGlass total run-time is 00:00:06 (6 secs)
+SpyGlass total cpu-time is 5 secs
+SpyGlass run completed at 11:05:06 PM on Dec 21 2024

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1733984521.895746489, "rt":2.95, "ut":2.23, "st":0.39}}
+{"vcselab":{"timestamp_begin":1733984524.933795749, "rt":0.58, "ut":0.36, "st":0.05}}
+{"link":{"timestamp_begin":1733984525.565923493, "rt":1.26, "ut":1.11, "st":0.20}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733984521.306289321}
+{"VCS_COMP_START_TIME": 1733984521.306289321}
+{"VCS_COMP_END_TIME": 1733984526.942087695}
+{"VCS_USER_OPTIONS": "-full64 -debug_acc+all +v2k -sverilog +maxdelays +sdfverbose +lint=all,noVCDE -notice -line -timescale=1ns/1ps -l ./logs/compile.log -o simv -f list.f +vcs+dumpvars+result.fsdb -t TB_FREQDIVCHAIN -P /home/eda/synopsys/verdi/V-2023.12-SP2-1/share/PLI/VCS/linux64/novas.tab /home/eda/synopsys/verdi/V-2023.12-SP2-1/share/PLI/VCS/linux64/pli.a"}
+{"vcs1": {"peak_mem": 394524}}
+{"vcselab": {"peak_mem": 249724}}

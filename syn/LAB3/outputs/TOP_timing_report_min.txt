@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : TOP
+Version: S-2021.06-SP4
+Date   : Sun Dec 22 06:14:47 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: INPUT_1[11]
+              (input port clocked by CLOCK)
+  Endpoint: MX0/u_get_shared_exp/exp_tree_1/larger_exp_reg[1]
+            (rising edge-triggered flip-flop clocked by CLOCK)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  TOP                540000                saed32hvt_ss0p95v125c
+  exp_tree_127       ForQA                 saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLOCK (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.10       0.10 f
+  INPUT_1[11] (in)                                        0.00       0.10 f
+  MX0/fp16_in1[11] (fp16_to_mxint_7)                      0.00       0.10 f
+  MX0/u_get_shared_exp/fp16_in1[11] (get_shared_exp_7)
+                                                          0.00       0.10 f
+  MX0/u_get_shared_exp/exp_tree_1/fp16_second[11] (exp_tree_127)
+                                                          0.00       0.10 f
+  MX0/u_get_shared_exp/exp_tree_1/U15/Y (AO22X1_HVT)      0.05       0.15 f
+  MX0/u_get_shared_exp/exp_tree_1/larger_exp_reg[1]/D (DFFARX1_HVT)
+                                                          0.00       0.15 f
+  data arrival time                                                  0.15
+
+  clock CLOCK (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  MX0/u_get_shared_exp/exp_tree_1/larger_exp_reg[1]/CLK (DFFARX1_HVT)
+                                                          0.00       0.10 r
+  library hold time                                      -0.01       0.09
+  data required time                                                 0.09
+  --------------------------------------------------------------------------
+  data required time                                                 0.09
+  data arrival time                                                 -0.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+1

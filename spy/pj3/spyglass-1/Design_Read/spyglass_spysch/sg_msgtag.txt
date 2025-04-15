@@ -1,0 +1,25 @@
+-1 "CheckCelldefine" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "INFO_1010" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_92" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

@@ -1,0 +1,33 @@
+#!SPYGLASS_PROJECT_FILE
+#!VERSION 3.0
+#  -------------------------------------------------------------------
+#  This is a software generated project file. Manual edits to this file could be lost during the next save operation
+#  Copyright Synopsys Inc.
+#  Last Updated By: SpyGlass SpyGlass_vQ-2020.03-SP2-3
+#  Last Updated On Sat Dec 21 23:00:19 2024
+#
+#  -------------------------------------------------------------------
+
+##Data Import Section
+
+read_file -type sourcelist ./list.f
+#BackRefFile:N.A. #LineNumber:7
+
+##Common Options Section
+
+read_sdc_data ./../../syn/LAB3/sdc/TOP.sdc -top TOP
+set_option projectwdir ./pj3
+set_option language_mode mixed
+set_option designread_enable_synthesis no
+set_option designread_disable_flatten no
+set_option active_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+##Goal Setup Section
+
+current_methodology $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff
+
+
+current_goal lint/lint_rtl -alltop
+set_goal_option sdc2sgdc yes
+

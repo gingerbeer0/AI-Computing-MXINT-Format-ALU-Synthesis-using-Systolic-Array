@@ -1,0 +1,959 @@
+SpyGlass run started at 10:42:47 PM on Dec 21 2024 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vQ-2020.03-SP2-3
+Synopsys TestMAX(TM)
+Last compiled on Jan 21 2021
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+
+Running SpyGlass 64-bit Executable: /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/obj/check.Linux4
+
+RULE-CHECKING IN MIXED MODE
+Loading Policy: spyglass (Version: SpyGlass_vQ-2020.03-SP2-03) from path: /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+Loading Shared library libformalRules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/auto-verify/libformalRules-Linux4.spyso 
+Version of Policy 'auto-verify': SpyGlass_vQ-2020.03-SP2-03
+Loading Shared library libVeStarc-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/starc/libVeStarc-Linux4.spyso 
+Loading Shared library libVeLint-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libVeLint-Linux4.spyso 
+Loading Shared library libCoreRules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libCoreRules-Linux4.spyso 
+Loading Shared library libVeMoreLint-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/morelint/libVeMoreLint-Linux4.spyso 
+Loading Shared library libVhMoreLint-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/morelint/libVhMoreLint-Linux4.spyso 
+
+INFO [326]    SpyGlass Design Database './pj3/TOP/.SG_SaveRestoreDB' can not be restored because:
+              Saved design is either incomplete or corrupted. Design restore failed.              Saving Database again
+Enabling Following Rules Only For Save:
+ ReportCksum
+GenTopLevelBlocksForAutoSoc
+Total Rules Enabled Only For Save : 2
+##build_id : Q-2020.03-SP2-3
+##system   : Linux dice 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64
+##cwd      : /mnt/home/dice12/dice/proj3/spy/pj3
+##lang     : Verilog+VHDL
+##args     : -lib accellera_vlog /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_verilog \
+             -lib accellera /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_vhdl \
+             -lib WORK ./pj3/TOP/WORK \
+             -lib accellera_vlog /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_verilog \
+             -lib accellera /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/ovl/precompile/Linux4/accellera_vhdl \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -nl \
+             -batch \
+             -policy='auto-verify' \
+             -sgdc '/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc' \
+             -sgdc '/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc' \
+             -wdir './pj3/TOP/lint/lint_functional_rtl' \
+             -dbdir './pj3/TOP/.SG_SaveRestoreDB' \
+             -mixed \
+             -rules='Av_Info_Case_Analysis,Av_width_mismatch_assign,Av_width_mismatch_case,Av_width_mismatch_port,Av_width_mismatch_function,Av_signed_unsigned_mismatch,Av_width_mismatch_expr,Av_case_default_missing,Av_width_mismatch_expr03,Av_width_mismatch_expr02,Av_dontcare_mismatch,Av_case_default_redundant' \
+             --goal_info 'lint/lint_functional_rtl@' \
+             -templatedir '/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff' \
+             --template_info 'lint/lint_functional_rtl' \
+             -projectwdir './pj3/TOP' \
+             -enable_save_restore \
+             -enable_save_restore_builtin 'true' \
+             -nocheckoverflow=yes \
+             -64bit  \
+             ./../../rtl/LAB3/PE.v \
+             ./../../rtl/LAB3/exp_tree.v \
+             ./../../rtl/LAB3/exp_tree_next.v \
+             ./../../rtl/LAB3/get_shared_exp.v \
+             ./../../rtl/LAB3/fp16_to_mxint.v \
+             ./../../rtl/LAB3/stair_array.v \
+             ./../../rtl/LAB3/output_buffer.v \
+             ./../../rtl/LAB3/TOP.v
+
+##verbosity level   : 2
+##exact cmdline arg : -batch -project TOP.prj -goal lint/lint_functional_rtl -64bit
+##spyglass_run.csh begins :
+;	cd /mnt/home/dice12/dice/proj3/spy/pj3
+;	setenv ATRENTA_LICENSE_FILE 26585@143.248.230.161:27020@163.180.160.78
+;	setenv SPYGLASS_LD_PRELOAD /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libreplacemalloc.so
+;	setenv SPYGLASS_DW_PATH /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/dw_support
+;	/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/bin/spyglass  -batch -project TOP.prj -goal lint/lint_functional_rtl -64bit
+##spyglass_run.csh ends
+##files    : ./../../rtl/LAB3/PE.v \
+             ./../../rtl/LAB3/exp_tree.v \
+             ./../../rtl/LAB3/exp_tree_next.v \
+             ./../../rtl/LAB3/get_shared_exp.v \
+             ./../../rtl/LAB3/fp16_to_mxint.v \
+             ./../../rtl/LAB3/stair_array.v \
+             ./../../rtl/LAB3/output_buffer.v \
+             ./../../rtl/LAB3/TOP.v
+
+ Reading sgdc file "/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using './pj3/TOP/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AbstractInterface (Rule 5 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 6 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 7 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_clock05 (Rule 8 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 9 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 10 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_path03 (Rule 11 of total 214) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_require_value03 (Rule 12 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 13 of total 214) .... done (Time = 0.00s, Memory = -8.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 14 of total 214) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 15 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 16 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 17 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive01 (Rule 18 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 19 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive03 (Rule 20 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 21 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 22 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 23 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 24 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 25 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 26 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 27 of total 214) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive11 (Rule 28 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 29 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_waive13 (Rule 30 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 31 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 32 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 33 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 34 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 35 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 36 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 37 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 38 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup01 (Rule 39 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 40 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 41 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 42 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 43 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 44 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port14 (Rule 45 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 46 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port18 (Rule 47 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDC_INFO (Rule 48 of total 214) .... done (Time = 0.00s, Memory = 80.0K)
+Checking Rule SDC_ParamSanityCheck (Rule 49 of total 214) .... done (Time = 0.13s, Memory = 32.0K)
+Checking Rule SDC_Sanity_Rule (Rule 50 of total 214)SDC-file translator read from path : /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/sdcparser
+ .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 51 of total 214) .... done (Time = 0.02s, Memory = 0.0K)
+Checking Rule CMD_ignorelibs01 (Rule 52 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 53 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_license01 (Rule 54 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_setup_checks01 (Rule 55 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity01 (Rule 56 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 57 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 58 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis started: 3 sec, 2.97 sec, 701532 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis started: 3 sec, 2.97 sec, 701532 KB, 3675656 KB
+ Analyzing source file "./../../rtl/LAB3/PE.v" ....
+ Analyzing source file "./../../rtl/LAB3/exp_tree.v" ....
+ Analyzing source file "./../../rtl/LAB3/exp_tree_next.v" ....
+ Analyzing source file "./../../rtl/LAB3/get_shared_exp.v" ....
+ Analyzing source file "./../../rtl/LAB3/fp16_to_mxint.v" ....
+ Analyzing source file "./../../rtl/LAB3/stair_array.v" ....
+ Analyzing source file "./../../rtl/LAB3/output_buffer.v" ....
+ Analyzing source file "./../../rtl/LAB3/TOP.v" ....
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis finished: 3 sec, 3.05 sec, 768084 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis finished: 0 sec, 0.07 sec, 66552 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 3 sec, 3.05 sec, 768084 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration started: 0 sec, 0.00 sec, 0 KB, 0 KB
+ Elaborating Top Verilog Design Unit 'TOP' .....
+ done
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 3 sec, 3.05 sec, 833780 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 0 sec, 0.00 sec, 65696 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 3 sec, 3.05 sec, 833780 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker started: 0 sec, 0.00 sec, 0 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 3 sec, 3.06 sec, 833780 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker finished: 0 sec, 0.01 sec, 0 KB, 0 KB
+Checking Rule ElabSummary (Rule 59 of total 214) .... done (Time = 0.01s, Memory = -1056.0K)
+Checking Rule ReportCheckDataSummary (Rule 60 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./pj3/TOP/lint/lint_functional_rtl/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./pj3/TOP/lint/lint_functional_rtl/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 61 of total 214) Detected 1 top level design units: 
+     TOP
+ .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed. (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_testmode03 (Rule 62 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 63 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCksum (Rule 64 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule checkSGDC_01 (Rule 65 of total 214) .... done (Time = 0.00s, Memory = 1056.0K)
+Checking Rule checkSGDC_03 (Rule 66 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 67 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 68 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 69 of total 214) .... done (Time = 0.00s, Memory = -1024.0K)
+Checking Rule SGDC_reset02 (Rule 70 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset03 (Rule 71 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 72 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 73 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema01 (Rule 74 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 75 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 76 of total 214)
+##SGDEBUG [BENCHMARK_DATA]: Number of RTL Design Units = 8
+##SGDEBUG: RTL statistics for Verilog design units:
+##SGDEBUG[BENCHMARK_DATA]: RTL Ports = 2765 43617 2738
+##SGDEBUG[BENCHMARK_DATA]: RTL Insts = 70
+##SGDEBUG[BENCHMARK_DATA]: RTL Nets = 171 1870 161
+##SGDEBUG[BENCHMARK_DATA]: RTL Terms = 2310 31735 2087
+
+##SGDEBUG: NOTE: Following estimated data is applicable for structural designs only.
+##SGDEBUG:     In case of RTL designs, this data may differ significantly from the actual figure.
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Insts = 277
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Nets = 4506
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Terms = 24947
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Paths = 18
+ .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 77 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 78 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 79 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 80 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 81 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit TOP
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit fp16_to_mxint
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit get_shared_exp
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking ELABDU Rules for designUnit exp_tree
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit exp_tree_next
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit stair_array
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit PE
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit output_buffer
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 82 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit TOP
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.01s, Memory = 16.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.01s, Memory = 1064.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 1064.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 48.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.01s, Memory = 8.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit fp16_to_mxint
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = -8.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = -8.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 1048.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit get_shared_exp
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit exp_tree
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit exp_tree_next
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = -16.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit stair_array
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.01s, Memory = 8.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit PE
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit output_buffer
+    Checking Rule Av_multitop01 (Rule 83 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 84 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 85 of total 214) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule InitState (Rule 86 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 87 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 88 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 89 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 90 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 91 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 92 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 93 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 94 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 95 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 96 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 97 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 98 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 99 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 100 of total 214) .... done (Time = 0.01s, Memory = -8.0K)
+    Checking Rule _width02_prereq (Rule 101 of total 214) .... done (Time = 0.01s, Memory = 8.0K)
+    Checking Rule _width03_prereq (Rule 102 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 103 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 104 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 105 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 106 of total 214) .... done (Time = 0.00s, Memory = -888.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 107 of total 214) .... done (Time = 0.00s, Memory = 24.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 108 of total 214) .... done (Time = 0.01s, Memory = -152.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 109 of total 214) .... done (Time = 0.00s, Memory = -88.0K)
+    Checking Rule _case_default_missing_prereq (Rule 110 of total 214) .... done (Time = 0.04s, Memory = 8.0K)
+    Checking Rule _formallint_preReq (Rule 111 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 112 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Lexical Checker started: 4 sec, 3.73 sec, 834708 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Lexical Checker started: 1 sec, 0.68 sec, 928 KB, 0 KB
+Checking Lexical Rules for file ./../../rtl/LAB3/PE.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/exp_tree.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/exp_tree_next.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/get_shared_exp.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/fp16_to_mxint.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/stair_array.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/output_buffer.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file ./../../rtl/LAB3/TOP.v
+    Checking Rule Av_complexity_req01 (Rule 113 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Lexical Checker finished: 4 sec, 3.77 sec, 835804 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Lexical Checker finished: 0 sec, 0.04 sec, 1096 KB, 0 KB
+Checking Rule SGDC_waive24 (Rule 114 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 115 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 116 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 117 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Synthesis started: 4 sec, 3.77 sec, 835804 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Synthesis started: 0 sec, 0.00 sec, 0 KB, 0 KB
+ Synthesizing module: output_buffer (elaborated name: output_buffer) ... (Module 1 of total 8)  done 
+     (Memory Used = -135520.0K(incr), 770476.0K(tot), Cpu Time = 4.30s(incr))
+ Synthesizing module: PE (elaborated name: PE) ... (Module 2 of total 8)  done 
+     (Memory Used = 8.0K(incr), 770548.0K(tot), Cpu Time = 0.00s(incr))
+ Synthesizing module: stair_array (elaborated name: stair_array) ... (Module 3 of total 8)  done 
+     (Memory Used = 16.0K(incr), 770572.0K(tot), Cpu Time = 0.10s(incr))
+ Synthesizing module: exp_tree_next (elaborated name: exp_tree_next) ... (Module 4 of total 8)  done 
+     (Memory Used = -1056.0K(incr), 770716.0K(tot), Cpu Time = 0.01s(incr))
+ Synthesizing module: exp_tree (elaborated name: exp_tree) ... (Module 5 of total 8)  done 
+     (Memory Used = 0.0K(incr), 770724.0K(tot), Cpu Time = 0.00s(incr))
+ Synthesizing module: get_shared_exp (elaborated name: get_shared_exp) ... (Module 6 of total 8)  done 
+     (Memory Used = -16.0K(incr), 770732.0K(tot), Cpu Time = 0.00s(incr))
+ Synthesizing module: fp16_to_mxint (elaborated name: fp16_to_mxint) ... (Module 7 of total 8)  done 
+     (Memory Used = 32.0K(incr), 770780.0K(tot), Cpu Time = 0.15s(incr))
+ Synthesizing module: TOP (elaborated name: TOP) ... (Module 8 of total 8)  done 
+     (Memory Used = 8.0K(incr), 770828.0K(tot), Cpu Time = 0.08s(incr))
+ Synthesis completed.
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Synthesis completed: 9 sec, 8.49 sec, 772060 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Synthesis completed: 5 sec, 4.72 sec, -63744 KB, 0 KB
+Checking Rule InferBlackBox (Rule 118 of total 214) .... done (Time = 0.04s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Modules = 8
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances = 48275
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Nets = 88829
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Terminals = 296536
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances per Module (max and avg) = 43255, 6034
+Checking Rule checkCMD_mthresh (Rule 119 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Saving NOM started: 9 sec, 8.55 sec, 772060 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Saving NOM started: 0 sec, 0.06 sec, 0 KB, 0 KB
+
+INFO [234]    Saving design database in directory './pj3/TOP/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
+              done
+
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Saving NOM completed: 9 sec, 8.66 sec, 841748 KB, 3675664 KB
+##SGDEBUG [BENCHMARK_INCR]: Saving NOM completed: 0 sec, 0.12 sec, 69688 KB, 8 KB
+     (Memory Used = 69656.0K(incr), 841748.0K(tot), Cpu Time = 0.23s(incr))
+Checking Rule SGDC_waive37 (Rule 120 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module output_buffer (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module output_buffer (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module output_buffer (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module output_buffer (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module output_buffer (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module output_buffer (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module PE (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module PE (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module PE (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module PE (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module PE (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module stair_array (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module stair_array (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module stair_array (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module stair_array (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module stair_array (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module stair_array (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module exp_tree_next (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module exp_tree_next (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module exp_tree_next (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module exp_tree_next (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module exp_tree_next (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module exp_tree (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module exp_tree (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module exp_tree (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module exp_tree (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module exp_tree (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module get_shared_exp (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module get_shared_exp (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module get_shared_exp (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module get_shared_exp (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module get_shared_exp (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module fp16_to_mxint (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module fp16_to_mxint (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module fp16_to_mxint (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module fp16_to_mxint (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module fp16_to_mxint (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module TOP (Rule 121 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module TOP (Rule 122 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module TOP (Rule 123 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module TOP (Rule 124 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module TOP (Rule 125 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module TOP (Rule 126 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed. (Time = 0.01s, Memory = 8.0K)
+Checking Rule SGDC_testmode03 (Rule 62 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 127 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 128 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 129 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 130 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 131 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 132 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 133 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 134 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 135 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 136 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity_req02 (Rule 137 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 138 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 139 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDC_WRN01 (Rule 140 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDC_STX01 (Rule 141 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq03 (Rule 142 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fsm_setup01 (Rule 143 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_PortRetention (Rule 144 of total 214) .... done (Time = 0.01s, Memory = 8.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: VS rule checking finished...: 10 sec, 9.01 sec, 782292 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: VS rule checking finished...: 1 sec, 0.34 sec, -59456 KB, -8 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elab View Deletion Finished: 10 sec, 9.07 sec, 716084 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Elab View Deletion Finished: 0 sec, 0.06 sec, -66208 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: After deleting RTL view: 10 sec, 9.07 sec, 645940 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: After deleting RTL view: 0 sec, 0.00 sec, -70144 KB, 0 KB
+Checking Rule SGDC_assume_path05 (Rule 145 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Flattening started: 10 sec, 9.08 sec, 648036 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Flattening started: 0 sec, 0.02 sec, 2096 KB, 0 KB
+ Flattening TOP (.lib instances separately flattened) ....
+    58% completed (50000 instances created)
+     (Memory Used = 95880.0K(incr), 743916.0K(tot), Cpu Time = 0.74s(incr))
+ Flattening completed
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Instances = 84931
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Nets = 150264
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Terms = 460265
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Paths = 295
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Ports = 23941
+##SGDEBUG [BENCHMARK_DATA]: Number of Black-Box Instances = 0
+##SGDEBUG [BENCHMARK_DATA]: Number of Lib Instances = 0
+##SGDEBUG [BENCHMARK_DATA]: Number of ILM Instances = 0
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Flattening finished: 10 sec, 9.81 sec, 743916 KB, 3675656 KB
+##SGDEBUG [BENCHMARK_INCR]: Flattening finished: 0 sec, 0.73 sec, 95880 KB, 0 KB
+Checking Rule SDC2SGDCPARSEW_1 (Rule 146 of total 214)
+AtrDomain: Inferring Clock Domains...CLOCK_STA mode..Done. (Time Taken=0s)
+AtrDomain: Generating Clock Domain Reports...Done. (Time Taken=0s)
+ .... done (Time = 0.17s, Memory = 16.0K)
+Checking Rule Domain_Conflict01 (Rule 147 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Domain_Matrix01 (Rule 148 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Domain_Missing01 (Rule 149 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC_Mapping01 (Rule 150 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_set_case_analysis_LC (Rule 151 of total 214) .... done (Time = 0.00s, Memory = 512.0K)
+Checking Rule Av_IpblockTaggedNet (Rule 152 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initseq01 (Rule 153 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_init01 (Rule 154 of total 214)
+***** WARNING: Percentage of registers initialized is less than 80. 
+      Improve this percentage by one/more of the following-
+      Specify all the resets in the sgdc file or use -use_inferred_resets, or provide init-state using vcdfile *****
+ .... done (Time = 0.91s, Memory = 11096.0K)
+Checking Rule SGDC_av_meta_design_hier01 (Rule 155 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initstate01 (Rule 156 of total 214) .... done (Time = 0.21s, Memory = -2752.0K)
+Checking Rule Av_sanity02 (Rule 157 of total 214) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Av_sanity06 (Rule 158 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _formal_anlysis_filter_prereq (Rule 159 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Av_fsmreq02 (Rule 160 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm03_prereq (Rule 161 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm_contr01 (Rule 162 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_width_mismatch_assign (Rule 163 of total 214) .... done (Time = 0.01s, Memory = 32.0K)
+Checking Rule Av_width_mismatch_case (Rule 164 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Av_width_mismatch_port (Rule 165 of total 214) .... done (Time = 0.01s, Memory = 32.0K)
+Checking Rule Av_width_mismatch_function (Rule 166 of total 214) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Av_signed_unsigned_mismatch (Rule 167 of total 214) .... done (Time = 0.00s, Memory = 1088.0K)
+Checking Rule Av_width_mismatch_expr (Rule 168 of total 214) .... done (Time = 0.01s, Memory = -1016.0K)
+Checking Rule Av_width_mismatch_expr02 (Rule 169 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_width_mismatch_expr03 (Rule 170 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dontcare_mismatch (Rule 171 of total 214) .... done (Time = 0.01s, Memory = 8.0K)
+Checking Rule Av_case_default_redundant (Rule 172 of total 214) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule Av_case_default_missing (Rule 173 of total 214) .... done (Time = 0.01s, Memory = -8.0K)
+Checking Rule Av_Info_Case_Analysis (Rule 174 of total 214) .... done (Time = 0.08s, Memory = 256.0K)
+Checking Rule Av_report01 (Rule 175 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _advLintReport01 (Rule 176 of total 214) .... done (Time = 0.02s, Memory = -4208.0K)
+Checking Rule AnalyzeBBox (Rule 177 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 60 of total 214) .... done (Time = 0.00s, Memory = 0.0K)
+
+Applying user specified and internally generated waivers on violation database .... done (Time = 0.18s)
+
+Generating data for Console...
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 3675660 KB for entire run at 'Saving NOM completed' stage
+##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
+##SGDEBUG [VMPEAK_MEMORY]: 3726292 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 1448812 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 13 sec, 12.30 sec, 752436 KB, 3675652 KB
+##SGDEBUG [BENCHMARK_INCR]: Rule checking finished: 3 sec, 2.48 sec, 8520 KB, -4 KB
+
+
+=====================================================================================
+							Rule Parameter Table
+=====================================================================================
+
+	PARAMETER-NAME                                     VALUE                DEFAULT VALUE
+-------------------------------------------------------------------------------------
+	-abstract                                          0                    0
+	-allow_clock_on_output_port                        no                   no
+	-assign_domain_conflict_clocks                     yes                  yes
+	-atime                                             UNDEFINED            UNDEFINED
+	-audit                                             no                   no
+	-av_flopcount                                      -1                   -1
+	-av_seqdepth                                       -1                   -1
+	-av_tclfile                                        UNDEFINED            UNDEFINED
+	-check_case_type                                   all                  all
+	-check_clock_group_violations                      no                   no
+	-check_concat_max_width                            no                   no
+	-check_counter_assignment                          no                   no
+	-check_pad_concat                                  no                   no
+	-check_sequential                                  no                   no
+	-check_sign_extend                                 no                   no
+	-check_static_value                                no                   no
+	-check_unsign_overflow                             no                   no
+	-chip                                              unspecified          unspecified
+	-chk_sign_unsign_also                              no                   no
+	-clock_group_dump_default                          yes                  yes
+	-control_sig_detection_nf                          no                   no
+	-datapath_or_control                               no                   no
+	-dccompat                                          no                   no
+	-debug_proc                                        no                   no
+	-disable_rtl_deadcode                              no                   no
+	-force_genclk_for_txv                              no                   no
+	-fv_parallelfile                                   UNDEFINED            UNDEFINED
+	-handle_shift_op                                   no                   no
+	-ieffort                                           0                    0
+	-ignore_bus_clocks                                 1024                 1024
+	-ignore_latches                                    no                   no
+	-ignoreforindex                                    no                   no
+	-library_gen_clock_naming                          yes                  yes
+	-modulelist                                        UNDEFINED            UNDEFINED
+	-netlist_clock_polarity                            yes                  yes
+	-nocheckoverflow                                   yes                  no
+	-passfail                                          both                 both
+	-populate_comboelements_for_minmax_in_fromto       no                   no
+	-post_clock_group_population                       no                   no
+	-preserve_path                                     no                   no
+	-propfile                                          UNDEFINED            UNDEFINED
+	-pt                                                yes                  yes
+	-report_blackbox_inst                              no                   no
+	-reportconstassign                                 no                   no
+	-scope                                             chip                 chip
+	-sdc2sgdc_file_dump_type                           default              default
+	-show_all_sdc_violations                           no                   no
+	-show_sdc_progress                                 no                   no
+	-solvemethod                                       1                    1
+	-strict                                            no                   no
+	-suppress_sdc_violation_in_abstract                no                   no
+	-tc_cache_empty_collections                        no                   no
+	-tc_disable_caching                                no                   no
+	-tc_disable_ignored_command_dump                   yes                  yes
+	-tc_enable_sdc_393                                 no                   no
+	-tc_ignored_commands                               unspecified          unspecified
+	-tc_stop_parsing_ignored_commands                  yes                  yes
+	-truncate_through                                  yes                  yes
+	-use_carry_bit                                     no                   no
+	-use_hier_sep_slash                                no                   no
+	-use_inferred_clocks                               no                   no
+	-use_inferred_resets                               no                   no
+	-use_lrm_width                                     no                   no
+	-vcdfile                                           UNDEFINED            UNDEFINED
+	-vcdfulltrace                                      usernets             usernets
+	-vcdtime                                           -1                   -1
+	-verbose                                           0                    0
+	-write_sdc                                         no                   no
+=====================================================================================
+
+
+
+=====================================================================================
+                               Rule Status Table
+
+ RULE-NAME                      POLICY-NAME     ENABLED VIOL-CNT RULE-TYPE   ERROR-MSG         
+=====================================================================================
+ Av_staticreg02                 auto-verify     No             - FLATDU2_WL     -               
+ Av_ovl01                       auto-verify     No             - FLATDU2_WL     -               
+ Av_syncfifo01                  auto-verify     No             - FLATDU2_WL     -               
+ Av_eventually_stucknet         auto-verify     No             - FLATDU2_WL     -               
+ Av_setreset01                  auto-verify     No             - FLATDU2_WL     -               
+ Av_staticnet01                 auto-verify     No             - FLATDU2_WL     -               
+ Av_dontcare01                  auto-verify     No             - FLATDU2_WL     -               
+ Av_negative_shift              auto-verify     No             - FLATDU2_WL     -               
+ Av_divide_by_zero              auto-verify     No             - FLATDU2_WL     -               
+ Av_range01                     auto-verify     No             - FLATDU2_WL     -               
+ Av_fsm01                       auto-verify     No             - FLATDU2_WL     -               
+ Av_fsm02                       auto-verify     No             - FLATDU2_WL     -               
+ Av_deadcode01                  auto-verify     No             - FLATDU2_WL     -               
+ Av_case03                      auto-verify     No             - ELABDU         -               
+ Av_case02                      auto-verify     No             - FLATDU2_WL     -               
+ Av_case01                      auto-verify     No             - FLATDU2_WL     -               
+ Av_bus02                       auto-verify     No             - FLATDU2_WL     -               
+ Av_bus01                       auto-verify     No             - FLATDU2_WL     -               
+ Av_complexity01                auto-verify     No             - FLATDU2_WL     -               
+ Av_fsm_analysis                auto-verify     No             - FLATDU2_WL     -               
+ Av_fsminf02                    auto-verify     No             - FLATDU2_WL     -               
+ Av_fsminf01                    auto-verify     No             - FLATDU2_WL     -               
+ Av_sanity04                    auto-verify     No             - FLATDU2_WL     -               
+ Av_rstinf01                    auto-verify     No             - FLATDU2_WL     -               
+ Av_clkinf01                    auto-verify     No             - FLATDU2_WL     -               
+ Av_sanity03                    auto-verify     No             - FLATDU2_WL     -               
+ _avAddSynthNet                 auto-verify     Yes            0 ELABDU         -               
+ _advLintReport01               auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_report01                    auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_IpblockTaggedNet            auto-verify     Yes            0 FLATDU2_PRD_WL   -               
+ Av_PortRetention               auto-verify     Yes            0 VSTOPDU        -               
+ Av_Info_Case_Analysis          auto-verify     Yes            0 FLATDU2_WL     -               
+ _formallint_preReq   (Verilog) auto-verify     Yes            0 ELABDU         -               
+ _case_default_missing_prereq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_case_default_missing        auto-verify     Yes            0 FLATDU2_WL     -               
+ _case_default_redundant_prereq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_case_default_redundant      auto-verify     Yes            0 FLATDU2_WL     -               
+ _dontcare_mismatch_prereq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_dontcare_mismatch           auto-verify     Yes            0 FLATDU2_WL     -               
+ _width_expr03_mismatch_prereq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_expr03       auto-verify     Yes            0 FLATDU2_WL     -               
+ _width_expr02_mismatch_prereq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_expr02       auto-verify     Yes            0 FLATDU2_WL     -               
+ _width05_prereq      (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_expr         auto-verify     Yes            0 FLATDU2_WL     -               
+ _signunsign01_prereq (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_signed_unsigned_mismatch    auto-verify     Yes            0 FLATDU2_WL     -               
+ _width04_prereq      (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_function     auto-verify     Yes            0 FLATDU2_WL     -               
+ _width03_prereq      (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_port         auto-verify     Yes            0 FLATDU2_WL     -               
+ _width02_prereq      (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_case         auto-verify     Yes            0 FLATDU2_WL     -               
+ _width01_prereq      (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_width_mismatch_assign       auto-verify     Yes            0 FLATDU2_WL     -               
+ _chk_signed_unsigned_prereq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_staticnetnreq01             auto-verify     Yes            0 VSDU           -               
+ Av_dcreq01           (VHDL   ) auto-verify     Yes            0 ELABDU         -               
+ Av_dcreq01           (Verilog) auto-verify     Yes            0 ELABDU         -               
+ veShiftOperatorPreReq(Verilog) auto-verify     Yes            0 ELABDU         -               
+ veOperatorPreReq     (Verilog) auto-verify     Yes            0 ELABDU         -               
+ AnalyzeABV           (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_dcreq02                     auto-verify     Yes            0 VSDU           -               
+ Av_deadfilter01                auto-verify     Yes            0 VSDU           -               
+ Av_deadreq01         (VHDL   ) auto-verify     Yes            0 ELABDU         -               
+ Av_deadreq01         (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_complexity_req02            auto-verify     Yes            0 VSDULIST       -               
+ Av_complexity_req01  (VHDL   ) auto-verify     Yes            0 LEXICAL        -               
+ Av_complexity_req01  (Verilog) auto-verify     Yes            0 LEXICAL        -               
+ SGDC_fsm_setup01               auto-verify     Yes            0 VSTOPDU        -               
+ _fsm_contr01                   auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_casereq03                   auto-verify     Yes            0 VSTOPDU        -               
+ Av_casereq02         (Verilog) auto-verify     Yes            0 VSDU           -               
+ Av_casereq01         (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_svasetup01                  auto-verify     Yes            0 VSDU           -               
+ Av_rstreq01          (VHDL   ) auto-verify     Yes            0 ELABDU         -               
+ Av_rstreq01          (Verilog) auto-verify     Yes            0 ELABDU         -               
+ _fsm03_prereq                  auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_fsmreq02                    auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_fsmreq01          (VHDL   ) auto-verify     Yes            0 ELABDU         -               
+ Av_fsmreq01          (Verilog) auto-verify     Yes            0 ELABDU         -               
+ InitState            (VHDL   ) auto-verify     Yes            0 ELABDU         -               
+ InitState            (Verilog) auto-verify     Yes            0 ELABDU         -               
+ _formal_anlysis_filter_prereq  auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_sanity06                    auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_multitop01        (VHDL   ) auto-verify     Yes            0 ELABDU         -               
+ Av_multitop01        (Verilog) auto-verify     Yes            0 ELABDU         -               
+ Av_sanity02                    auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_sanity01                    auto-verify     Yes            0 SETUP          -               
+ Av_setup_checks01              auto-verify     Yes            0 SETUP          -               
+ Av_license01                   auto-verify     Yes            0 SETUP          -               
+ Av_initstate01                 auto-verify     Yes            1 FLATDU2_WL     -               
+ SGDC_av_meta_design_hier01     auto-verify     Yes            0 FLATDU2_WL     -               
+ _vhAvMeta01          (VHDL   ) auto-verify     Yes            0 VSDU           -               
+ Av_init01                      auto-verify     Yes            0 FLATDU2_WL     -               
+ Av_initseq01                   auto-verify     Yes            0 FLATDU2_WL     -               
+ SDC_214                        SpyGlass        Yes            1 SETUP          -               
+ SDC_106                        SpyGlass        Yes            2 SETUP          -               
+ SDC_Mapping01                  SpyGlass        Yes            1 FLATDU2_PRD_WL   -               
+ Domain_Matrix01                SpyGlass        Yes            1 FLATDU2_PRD_WL   -               
+ SDC2SGDC_INFO                  SpyGlass        Yes            1 SETUP          -               
+ ElabSummary                    SpyGlass        Yes            1 SETUP          -               
+ DetectTopDesignUnits           SpyGlass        Yes            1 RTLALLDULIST   -               
+-------------------------------------------------------------------------------------
+Note: VSDU type of rules (as seen in the above table) are not run on
+      unsynthesized modules reported by 'ErrorAnalyzeBBox/InfoAnalyzeBBox' messages
+      (Please see messages starting with keyword 'UnsynthesizedDU')
+
+##status : SpyGlass Rule Checking Complete.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_functional_rtl
+   Command-line read  :      0 error,      0 warning,      0 information message 
+** Design Read        :      2 errors,     1 warning,      5 information messages
+      Found 1 top module:
+         TOP   (file: ./../../rtl/LAB3/TOP.v)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy auto-verify :      0 error,      0 warning,      1 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      2 errors,     1 warning,      6 information messages
+
+  Total Number of Generated Messages     :         9 (2 errors, 1 warning, 6 Infos)
+  Number of Reported Messages            :         9 (2 errors, 1 warning, 6 Infos)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './pj3/TOP/lint/lint_functional_rtl/spyglass.vdb' to './pj3/TOP/lint/lint_functional_rtl/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './pj3/TOP/lint/lint_functional_rtl/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './pj3/TOP/lint/lint_functional_rtl/spyglass.vdb' to './pj3/TOP/lint/lint_functional_rtl/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating ADV-LINT report from './pj3/TOP/lint/lint_functional_rtl/spyglass.vdb' to './pj3/TOP/lint/lint_functional_rtl/spyglass_reports/ADV-LINT.rpt' ....
+
+Generating auto_verify report from './pj3/TOP/lint/lint_functional_rtl/spyglass.vdb' to './pj3/TOP/lint/lint_functional_rtl/spyglass_reports/auto_verify.rpt' ....
+
+Policy specific data (reports) are present in the directory './pj3/TOP/lint/lint_functional_rtl/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './pj3/TOP/consolidated_reports/lint_lint_functional_rtl/'.
+
+
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_functional_rtl
+   Top Module         :      TOP
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/consolidated_reports/lint_lint_functional_rtl/ 
+
+   SpyGlass LogFile: 
+    /mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_functional_rtl/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     auto_verify.rpt          ADV-LINT.rpt        
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    2 Errors,      1 Warnings,      6 Infos
+---------------------------------------------------------------------------------------------------
+   
+   Technology Summary: Advanced_Lint   
+       Partially-proven properties = 0
+       Failed properties = 0
+---------------------------------------------------------------------------------------------------
+ 
+SpyGlass Exit Code 0 (Rule-checking completed with errors)
+SpyGlass total run-time is 00:00:13 (13 secs)
+SpyGlass total cpu-time is 13 secs
+SpyGlass run completed at 10:49:51 PM on Dec 21 2024

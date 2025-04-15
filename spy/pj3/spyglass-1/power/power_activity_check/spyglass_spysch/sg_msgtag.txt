@@ -1,0 +1,63 @@
+121 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+25
+122 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+26
+123 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+27
+124 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+28
+125 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+29
+126 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+30
+-1 "CheckCelldefine" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "INFO_1010" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_106" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_214" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SGDC_power_est22" 2
+"TEMPLATE"
+["power/power_activity_check"]
+"RULE_ORDER"
+[-1]
+-1 "SYNTH_5142" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_92" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

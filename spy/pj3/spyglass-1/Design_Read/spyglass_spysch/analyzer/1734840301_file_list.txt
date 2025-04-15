@@ -1,0 +1,3 @@
+0 saed32nm_hvt.v
+1 ../../syn/LAB3/outputs/TOP_gate.v
+2 /tmp/udpSrc147019301483

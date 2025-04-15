@@ -1,0 +1,17 @@
+#!/bin/sh
+# Clean existing FSDB files and logs directory
+rm *.fsdb -rf
+rm logs -rf
+
+# Create logs directory
+mkdir logs
+
+# VCS compilation
+vcs -full64 -debug_acc+all +v2k -sverilog +maxdelays +sdfverbose +lint=all,noVCDE -notice -line -timescale=1ns/1ps -l ./logs/compile.log -o simv -f list.f +vcs+dumpvars+result.fsdb -t TB_FREQDIVCHAIN -P ${VERDI_HOME}/share/PLI/VCS/linux64/novas.tab ${VERDI_HOME}/share/PLI/VCS/linux64/pli.a
+
+# Run simulation
+./simv
+
+# Check results with Verdi
+verdi -ssf result.fsdb -f list.f
+

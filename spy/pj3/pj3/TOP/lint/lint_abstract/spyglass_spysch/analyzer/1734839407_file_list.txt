@@ -1,0 +1,8 @@
+0 ./../../rtl/LAB3/PE.v
+1 ./../../rtl/LAB3/exp_tree.v
+2 ./../../rtl/LAB3/exp_tree_next.v
+3 ./../../rtl/LAB3/get_shared_exp.v
+4 ./../../rtl/LAB3/fp16_to_mxint.v
+5 ./../../rtl/LAB3/stair_array.v
+6 ./../../rtl/LAB3/output_buffer.v
+7 ./../../rtl/LAB3/TOP.v

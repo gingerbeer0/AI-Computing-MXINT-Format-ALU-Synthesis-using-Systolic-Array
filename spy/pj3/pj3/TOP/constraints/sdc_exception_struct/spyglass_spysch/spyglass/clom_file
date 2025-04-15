@@ -1,0 +1,63 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     constraints/sdc_exception_struct@ CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 40
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./pj3/TOP/.SG_SaveRestoreDB CmdLine -                              -
+-enable_save_restore <ON>              CmdLine -                              -
+-enable_save_restore_builtin true              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 30
+-lib            WORK=>./pj3/TOP/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         constraints       CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 29
+-projectwdir    ./pj3/TOP         CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-rules          False_Path01      CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 35
+                False_Path09      CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 36
+                MCP01             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 37
+                MCP05             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 38
+                TE_Conflict01     CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 39
+                Show_Case_Analysis CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 41
+                Show_Clock_Propagation CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 42
+                SCG01             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 44
+                SCG02             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 45
+                SCG03             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 46
+                SCG04             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 47
+                SCG05             CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/constraints/sdc_exception_struct.spq 48
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       constraints/sdc_exception_struct CmdLine -                              -
+-templatedir    /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff CmdLine -                              -
+-wdir           ./pj3/TOP/constraints/sdc_exception_struct CmdLine -                              -
+<design_files>  ./../../rtl/LAB3/PE.v APICall -                              -
+                ./../../rtl/LAB3/TOP.v APICall -                              -
+                ./../../rtl/LAB3/exp_tree.v APICall -                              -
+                ./../../rtl/LAB3/exp_tree_next.v APICall -                              -
+                ./../../rtl/LAB3/fp16_to_mxint.v APICall -                              -
+                ./../../rtl/LAB3/get_shared_exp.v APICall -                              -
+                ./../../rtl/LAB3/output_buffer.v APICall -                              -
+                ./../../rtl/LAB3/stair_array.v APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vQ-2020.03-SP2-03 $SPYGLASS_HOME/policies/spyglass
+constraints     SpyGlass_vQ-2020.03-SP2-03 $SPYGLASS_HOME/policies/constraints
+
+

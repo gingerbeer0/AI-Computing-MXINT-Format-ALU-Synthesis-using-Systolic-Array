@@ -1,0 +1,13 @@
+fp16_to_mxint_7@@@@TOP.MX0
+fp16_to_mxint_6@@@@TOP.MX1
+fp16_to_mxint_5@@@@TOP.MX2
+fp16_to_mxint_4@@@@TOP.MX3
+fp16_to_mxint_3@@@@TOP.MX4
+fp16_to_mxint_2@@@@TOP.MX5
+fp16_to_mxint_1@@@@TOP.MX6
+fp16_to_mxint_0@@@@TOP.MX7
+stair_array@@@@TOP.ST1
+output_buffer@@@@TOP.OB
+DFFARX1_HVT@@@@TOP.enable_reg
+DFFARX1_HVT@@@@TOP.alu_enable_reg_reg
+NBUFFX4_HVT@@@@TOP.U4

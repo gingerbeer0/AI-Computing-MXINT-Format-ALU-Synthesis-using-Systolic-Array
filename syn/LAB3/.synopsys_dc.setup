@@ -1,0 +1,45 @@
+##########################################################################################
+# User-defined variables for logical library, RTL setup
+##########################################################################################
+set edkdir    "/home/eda/soc/lib/gpdk/32n/lib"
+set lib_hvt   "${edkdir}/stdcell_hvt/db_nldm"                 ;#Logic cell library directory
+set lib_mem   "${edkdir}/sram/db_nldm"                 ;#Logic cell library directory
+set RTL_path  "./../../rtl/LAB3"                            ;#RTL directory
+
+######################################################################
+# Search path Settings
+######################################################################
+set search_path ". \
+      $lib_hvt \
+      $RTL_path"
+
+##########################################################################################
+# Target & Link library setup
+##########################################################################################
+#SS
+set target_library "saed32hvt_ss0p95v125c.db"
+set link_library "* $target_library \
+      dw_foundation.sldb"
+
+##TT
+#set target_library "saed14rvt_tt0p8v25c.db"
+#set link_library "* $target_library \
+#      saed14io_fc_tt0p8v25c_1p8v.db \
+#      saed14pll_tt0p8v25c.db \
+#      saed14sram_tt0p8v25c.db \
+#      dw_foundation.sldb"
+#
+##FF
+#set target_library "saed14rvt_ff0p88vm40c.db"
+#set link_library "* $target_library \
+#      saed14io_fc_ff0p88vm40c_1p96v.db \
+#      saed14pll_ff0p88vm40c.db \
+#      saed14sram_ff0p88vm40c.db \
+#      dw_foundation.sldb"
+##########################################################################################
+# User setup
+##########################################################################################
+define_design_lib work -path "./work"
+set hdlin_enable_rtldrc_info true
+set hdlin_enable_presto_for_vl true
+

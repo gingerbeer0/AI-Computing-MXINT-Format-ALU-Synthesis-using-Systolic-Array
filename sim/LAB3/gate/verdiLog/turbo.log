@@ -1,0 +1,3 @@
+Command Line: /home/eda/synopsys/verdi/V-2023.12-SP2-1/platform/LINUXAMD64/bin/Novas -ssf result.fsdb -f list.f
+uname(Linux dice 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+au time 329.491079 15.090385 3.870729 delta 726073344 726073344 total 1396912128 1396912128

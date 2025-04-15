@@ -1,0 +1,12 @@
+-1 "Const_Sanity_Rule" 3
+"TEMPLATE"
+["constraints/sdc_check"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["constraints/Prereqs"]
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

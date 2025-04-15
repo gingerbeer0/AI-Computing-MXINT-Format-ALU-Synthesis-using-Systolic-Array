@@ -1,0 +1,72 @@
+*design* DebussyLib (btIdent Verdi_V-2023.12-SP2-1)
+Command arguments:
+    +define+verilog
+    -f list.f
+        ./../../../rtl/LAB3/FREQDIVCHAIN.sv
+        ./../../../rtl/LAB3/FREQDIV.sv
+        ./TB_FREQDIVCHAIN.sv
+
+
+*Error* Syntax error at ;
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 11: 
+
+*Error* Syntax error at ;
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 12: 
+
+*Error* failed to find symbol 'logic'
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 14: 
+
+*Error* Syntax error at CLKDIV8
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 14: 
+
+*Error* port CLKDIV8 not input, output or inout port
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 3: 
+
+*Error* Syntax error at OUT
+"./../../../rtl/LAB3/FREQDIV.sv", 5: 
+
+*Error* Syntax error at [
+"./../../../rtl/LAB3/FREQDIV.sv", 7: 
+
+*Error* Syntax error at @
+"./../../../rtl/LAB3/FREQDIV.sv", 8: 
+
+*Error* Syntax error at <=
+"./../../../rtl/LAB3/FREQDIV.sv", 10: 
+
+*Error* Syntax error at <=
+"./../../../rtl/LAB3/FREQDIV.sv", 11: 
+
+*Error* Syntax error at end
+"./../../../rtl/LAB3/FREQDIV.sv", 12: 
+
+*Error* Syntax error at else
+"./../../../rtl/LAB3/FREQDIV.sv", 13: 
+
+*Error* Syntax error at <=
+"./../../../rtl/LAB3/FREQDIV.sv", 14: 
+
+*Error* Syntax error at <=
+"./../../../rtl/LAB3/FREQDIV.sv", 15: 
+
+*Error* Syntax error at end
+"./../../../rtl/LAB3/FREQDIV.sv", 16: 
+
+*Error* Syntax error at end
+"./../../../rtl/LAB3/FREQDIV.sv", 17: 
+
+*Error* Syntax error at ;
+"./TB_FREQDIVCHAIN.sv", 11: 
+Highest level modules:
+TB_FREQDIVCHAIN
+
+
+*Error* failed to find port 'OUT' for instance 'UFDIV2B'
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 21: 
+
+*Error* failed to find port 'OUT' for instance 'UFDIV4B'
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 31: 
+
+*Error* failed to find port 'OUT' for instance 'UFDIV8B'
+"./../../../rtl/LAB3/FREQDIVCHAIN.sv", 41: 
+Total	20 error(s),   0 warning(s)

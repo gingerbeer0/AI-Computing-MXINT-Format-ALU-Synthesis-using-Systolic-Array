@@ -1,0 +1,16 @@
+INPUT@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/html_reports/data_files/@@TOP@@power-power_activity_check@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/moresimple.rpt@@data_files/TOP_power-power_activity_check_moresimple.rpt@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/TOP_power-power_activity_check_no_msg_reporting_rules.rpt@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_debug_info.rpt@@data_files/TOP_power-power_activity_check_pe_debug_info.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_summary.rpt@@data_files/TOP_power-power_activity_check_pe_summary.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_wireload.rpt@@data_files/TOP_power-power_activity_check_pe_wireload.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_cycle_power.rpt@@data_files/TOP_power-power_activity_check_pe_cycle_power.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_audit.rpt@@data_files/TOP_power-power_activity_check_pe_audit.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_design_stats.rpt@@data_files/TOP_power-power_activity_check_pe_design_stats.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_adv_reduction.rpt@@data_files/TOP_power-power_activity_check_pe_adv_reduction.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_reduction.rpt@@data_files/TOP_power-power_activity_check_pe_reduction.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_slew.rpt@@data_files/TOP_power-power_activity_check_pe_slew.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_clock_gating_summary.rpt@@data_files/TOP_power-power_activity_check_pe_clock_gating_summary.rpt.html@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass_reports/pe_debug_info.rpt@@data_files/TOP_power-power_activity_check_pe_debug_info.rpt@@
+PROCESS@@sdc2sgdc@@SpyGlass@@power_est
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass.log@@data_files/TOP_power-power_activity_check_spyglass.log@@

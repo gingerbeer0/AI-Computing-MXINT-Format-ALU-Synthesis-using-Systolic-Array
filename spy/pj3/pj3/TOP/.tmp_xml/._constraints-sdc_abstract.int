@@ -1,0 +1,7 @@
+INPUT@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/constraints/sdc_abstract/spyglass_reports@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/html_reports/data_files/@@@@constraints-sdc_abstract@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/constraints/sdc_abstract/spyglass_reports/moresimple.rpt@@data_files/_constraints-sdc_abstract_moresimple.rpt@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/constraints/sdc_abstract/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/_constraints-sdc_abstract_no_msg_reporting_rules.rpt@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/constraints/sdc_abstract/spyglass_reports/tc_unparsed_command.rpt@@data_files/_constraints-sdc_abstract_tc_unparsed_command.rpt.html@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/constraints/sdc_abstract/spyglass_reports/tc_unparsed_command.rpt@@data_files/_constraints-sdc_abstract_tc_unparsed_command.rpt@@
+PROCESS@@constraints@@sdc2sgdc@@SpyGlass
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/constraints/sdc_abstract/spyglass.log@@data_files/_constraints-sdc_abstract_spyglass.log@@

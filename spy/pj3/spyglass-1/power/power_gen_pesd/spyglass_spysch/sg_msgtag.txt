@@ -1,0 +1,90 @@
+9 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+31
+10 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+32
+11 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+33
+12 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+34
+13 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+35
+14 "SDC_214" 1
+"SDC_Unparsed_Commands_TAG"
+36
+16 "Domain_Matrix01" 1
+"DomainMatrix_SS"
+6
+17 "Domain_Matrix01" 1
+"Open_Sp_Sheet"
+["./spyglass-1/power/power_gen_pesd/spyglass_reports/sdc2sgdc/Domain/clock_TOP_domain_matrix_0.csv@@noofheadercol:3"]
+18 "SDC_Mapping01" 1
+"SDCMapping_TAG"
+1
+20 "SDC_Mapping01" 1
+"Open_Sp_Sheet"
+["./spyglass-1/power/power_gen_pesd/spyglass_reports/sdc2sgdc/sdcMapping.csv"]
+-1 "CheckCelldefine" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "Domain_Matrix01" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "INFO_1010" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "PEPESD01" 2
+"TEMPLATE"
+["power/power_gen_pesd"]
+"RULE_ORDER"
+[1]
+-1 "SDC2SGDC_INFO" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_106" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_214" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC_Mapping01" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_5142" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_92" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

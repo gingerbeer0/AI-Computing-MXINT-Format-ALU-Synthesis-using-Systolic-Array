@@ -1,0 +1,126 @@
+read_file -type verilog {saed32nm_hvt.v ../../syn/LAB3/outputs/TOP_gate.v}
+# Started at 23:04:19, Completed at 23:04:20 (Elapsed time = 00:00:01.130)
+
+read_sdc_data -top TOP ./../../syn/LAB3/sdc/TOP.sdc
+# Started at 23:04:48, Completed at 23:04:48 (Elapsed time = 00:00:00.000)
+
+current_goal Design_Read -alltop
+# Started at 23:04:52, Completed at 23:04:52 (Elapsed time = 00:00:00.710)
+
+link_design -force
+# Started at 23:05:00, Completed at 23:05:09 (Elapsed time = 00:00:08.750)
+
+current_goal lint/lint_rtl -alltop
+# Started at 23:05:34, Completed at 23:05:38 (Elapsed time = 00:00:03.869)
+
+run_goal
+# Started at 23:05:38, Completed at 23:06:35 (Elapsed time = 00:01:06.940)
+
+current_goal lint/lint_turbo_rtl -alltop
+# Started at 23:06:35, Completed at 23:06:40 (Elapsed time = 00:00:05.840)
+
+run_goal
+# Started at 23:06:40, Completed at 23:07:38 (Elapsed time = 00:01:11.610)
+
+current_goal lint/lint_functional_rtl -alltop
+# Started at 23:07:38, Completed at 23:07:41 (Elapsed time = 00:00:03.239)
+
+run_goal
+# Started at 23:07:41, Completed at 23:08:27 (Elapsed time = 00:00:51.920)
+
+current_goal lint/lint_abstract -alltop
+# Started at 23:08:27, Completed at 23:08:30 (Elapsed time = 00:00:02.759)
+
+run_goal
+# Started at 23:08:30, Completed at 23:09:25 (Elapsed time = 00:00:59.940)
+
+current_goal constraints/sdc_audit -alltop
+# Started at 23:09:25, Completed at 23:09:28 (Elapsed time = 00:00:02.949)
+
+run_goal
+# Started at 23:09:28, Completed at 23:09:32 (Elapsed time = 00:00:03.739)
+
+current_goal constraints/sdc_check -alltop
+# Started at 23:09:32, Completed at 23:09:34 (Elapsed time = 00:00:02.300)
+
+run_goal
+# Started at 23:09:34, Completed at 23:09:38 (Elapsed time = 00:00:03.919)
+
+current_goal constraints/sdc_exception_struct -alltop
+# Started at 23:09:38, Completed at 23:09:40 (Elapsed time = 00:00:02.139)
+
+run_goal
+# Started at 23:09:40, Completed at 23:09:44 (Elapsed time = 00:00:03.860)
+
+current_goal constraints/sdc_redundancy -alltop
+# Started at 23:09:44, Completed at 23:09:46 (Elapsed time = 00:00:02.340)
+
+run_goal
+# Started at 23:09:46, Completed at 23:09:50 (Elapsed time = 00:00:04.219)
+
+current_goal constraints/sdc_abstract -alltop
+# Started at 23:09:51, Completed at 23:09:53 (Elapsed time = 00:00:02.279)
+
+run_goal
+# Started at 23:09:53, Completed at 23:09:57 (Elapsed time = 00:00:02.879)
+
+current_goal power/power_audit -alltop
+# Started at 23:09:57, Completed at 23:10:00 (Elapsed time = 00:00:02.310)
+
+run_goal
+# Started at 23:10:00, Completed at 23:10:03 (Elapsed time = 00:00:03.040)
+
+current_goal power/power_activity_check -alltop
+# Started at 23:10:04, Completed at 23:10:06 (Elapsed time = 00:00:02.290)
+
+run_goal
+# Started at 23:10:06, Completed at 23:10:13 (Elapsed time = 00:00:06.589)
+
+current_goal power/power_gen_pesd -alltop
+# Started at 23:10:13, Completed at 23:10:16 (Elapsed time = 00:00:02.350)
+
+run_goal
+# Started at 23:10:16, Completed at 23:10:49 (Elapsed time = 00:00:34.710)
+
+current_goal power/power_calibration -alltop
+# Started at 23:10:49, Completed at 23:10:52 (Elapsed time = 00:00:02.730)
+
+current_goal power/power_est_average -alltop
+# Started at 23:10:52, Completed at 23:10:54 (Elapsed time = 00:00:02.199)
+
+current_goal power/power_est_profiling -alltop
+# Started at 23:10:55, Completed at 23:10:57 (Elapsed time = 00:00:02.070)
+
+current_goal power/power_cge_profiling -alltop
+# Started at 23:10:57, Completed at 23:10:59 (Elapsed time = 00:00:02.409)
+
+current_goal power/power_cge_profiling_est -alltop
+# Started at 23:10:59, Completed at 23:11:02 (Elapsed time = 00:00:02.219)
+
+current_goal power/power_reduction_adv -alltop
+# Started at 23:11:02, Completed at 23:11:04 (Elapsed time = 00:00:02.389)
+
+current_goal power/power_mem_reduction -alltop
+# Started at 23:11:04, Completed at 23:11:07 (Elapsed time = 00:00:02.350)
+
+current_goal power/power_guidance -alltop
+# Started at 23:11:07, Completed at 23:11:09 (Elapsed time = 00:00:02.060)
+
+run_goal
+# Started at 23:11:09, Completed at 23:11:13 (Elapsed time = 00:00:03.280)
+
+current_goal rtl2netlist/rtl2netlist_migration -alltop
+# Started at 23:11:13, Completed at 23:11:17 (Elapsed time = 00:00:03.189)
+
+run_goal
+# Started at 23:11:17, Completed at 23:11:17 (Elapsed time = 00:00:00.220)
+
+current_goal lint/lint_rtl -alltop
+# Started at 23:11:17, Completed at 23:11:22 (Elapsed time = 00:00:05.089)
+
+capture ./spyglass-1/lint/lint_rtl/spyglass_reports/W415_Report.rpt {write_report W415_Report}
+# Started at 23:15:04, Completed at 23:15:04 (Elapsed time = 00:00:00.020)
+
+save_project -force /mnt/home/dice12/dice/proj3/spy/pj3/gate.prj
+# Started at 23:15:27, Completed at 23:15:27 (Elapsed time = 00:00:00.030)
+

@@ -1,0 +1,5 @@
+INPUT@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/Design_Read/spyglass_reports@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/html_reports/data_files/@@TOP@@Design_Read@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/Design_Read/spyglass_reports/moresimple.rpt@@data_files/TOP_Design_Read_moresimple.rpt@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/TOP_Design_Read_no_msg_reporting_rules.rpt@@
+PROCESS@@SpyGlass
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/Design_Read/spyglass.log@@data_files/TOP_Design_Read_spyglass.log@@

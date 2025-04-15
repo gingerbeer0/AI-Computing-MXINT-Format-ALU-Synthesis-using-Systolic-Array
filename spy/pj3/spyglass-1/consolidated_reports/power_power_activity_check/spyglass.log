@@ -1,0 +1,1426 @@
+SpyGlass run started at 11:03:29 PM on Dec 21 2024 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vQ-2020.03-SP2-3
+Synopsys TestMAX(TM)
+Last compiled on Jan 21 2021
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+
+Running SpyGlass 64-bit Executable: /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/obj/check.Linux4
+
+RULE-CHECKING IN MIXED MODE
+Loading Policy: spyglass (Version: SpyGlass_vQ-2020.03-SP2-03) from path: /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+Version of Policy 'power_est': SpyGlass_vQ-2020.03
+Loading Shared library libBasePowerEst-Linux4.spyso from /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/policies/power_est/libBasePowerEst-Linux4.spyso 
+##build_id : Q-2020.03-SP2-3
+##system   : Linux dice 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64
+##cwd      : /mnt/home/dice12/dice/proj3/spy/pj3
+##lang     : Verilog+VHDL
+##args     : -lib WORK ./spyglass-1/WORK \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -nl \
+             -batch \
+             -policy='power_est' \
+             -wdir './spyglass-1/power/power_activity_check' \
+             -dbdir './spyglass-1/.SG_SaveRestoreDB' \
+             -mixed \
+             -rules='PESAE04' \
+             --goal_info 'power/power_activity_check@' \
+             -templatedir '/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff' \
+             --template_info 'power/power_activity_check' \
+             -projectwdir './spyglass-1' \
+             -enable_save_restore \
+             -enable_save_restore_builtin 'true' \
+             -64bit  \
+             saed32nm_hvt.v \
+             ../../syn/LAB3/outputs/TOP_gate.v
+
+##verbosity level   : 2
+##exact cmdline arg : -batch -project spyglass-1.prj -goal power/power_activity_check -64bit
+##spyglass_run.csh begins :
+;	cd /mnt/home/dice12/dice/proj3/spy/pj3
+;	setenv ATRENTA_LICENSE_FILE 26585@143.248.230.161:27020@163.180.160.78
+;	setenv SPYGLASS_LD_PRELOAD /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/lib/libreplacemalloc.so
+;	setenv SPYGLASS_DW_PATH /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/dw_support
+;	/home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/bin/spyglass  -batch -project spyglass-1.prj -goal power/power_activity_check -64bit
+##spyglass_run.csh ends
+##files    : saed32nm_hvt.v \
+             ../../syn/LAB3/outputs/TOP_gate.v
+
+
+INFO [76]    Using './spyglass-1/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ElabSummary (Rule 5 of total 249) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule AbstractInterface (Rule 6 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 7 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 8 of total 249) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_clock05 (Rule 9 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 10 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 11 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_path03 (Rule 12 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 13 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 14 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 15 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 16 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 17 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_supply01 (Rule 18 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive01 (Rule 19 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 20 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 21 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 22 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 23 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive06 (Rule 24 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 25 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 26 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 27 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 28 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 29 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 30 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 31 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 32 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 33 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 34 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 35 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 36 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 37 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 38 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 39 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_libgroup01 (Rule 40 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 41 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 42 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 43 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 44 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port06 (Rule 45 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 46 of total 249) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_abstract_port15 (Rule 47 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port18 (Rule 48 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SDC2SGDC_INFO (Rule 49 of total 249) .... done (Time = 0.00s, Memory = 80.0K)
+Checking Rule SDC_ParamSanityCheck (Rule 50 of total 249) .... done (Time = 0.11s, Memory = -104.0K)
+Checking Rule SDC_Sanity_Rule (Rule 51 of total 249)SDC-file translator read from path : /home/eda/synopsys/spyglass/Q-2020.03-SP2-3/SPYGLASS_HOME/auxi/sdcparser
+ .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 52 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CMD_ignorelibs01 (Rule 53 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 54 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est29 (Rule 55 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est39 (Rule 56 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est40 (Rule 57 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est42 (Rule 58 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est57 (Rule 59 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est58 (Rule 60 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est59 (Rule 61 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est62 (Rule 62 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est61 (Rule 63 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est63 (Rule 64 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_power_est65 (Rule 65 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est67 (Rule 66 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est68 (Rule 67 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est69 (Rule 68 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK04 (Rule 69 of total 249) .... done (Time = 0.02s, Memory = 24.0K)
+Checking Rule PECHECK37 (Rule 70 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK18 (Rule 71 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK20 (Rule 72 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK30 (Rule 73 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK24 (Rule 74 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK28 (Rule 75 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK29 (Rule 76 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK31 (Rule 77 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK53 (Rule 78 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK32 (Rule 79 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK34 (Rule 80 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK47 (Rule 81 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PEMVDD01 (Rule 82 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK54 (Rule 83 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./spyglass-1/power/power_activity_check/spyglass_spysch/waiver/pragma2Waiver.swl" ...
+Checking Rule ReportStopSummary (Rule 84 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 85 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Restoring NOM started: 3 sec, 2.66 sec, 823736 KB, 3690292 KB
+##SGDEBUG [BENCHMARK_INCR]: Restoring NOM started: 3 sec, 2.66 sec, 823736 KB, 3690292 KB
+
+INFO [235]    Restoring design database from directory './spyglass-1/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
+              done
+
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Restoring NOM completed: 4 sec, 3.13 sec, 930096 KB, 3690292 KB
+##SGDEBUG [BENCHMARK_INCR]: Restoring NOM completed: 1 sec, 0.46 sec, 106360 KB, 0 KB
+     (Memory Used = 106360.0K(incr), 930096.0K(tot), Cpu Time = 0.59s(incr))
+Checking Rule InferBlackBox (Rule 86 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Modules = 357
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances = 146518
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Nets = 203036
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Terminals = 668470
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances per Module (max and avg) = 30593, 410
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_92            -            -            WARNING                       
+ SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning               SYNTH_5142          -            -            SynthesisWarning              Checking Rule PECHECK43 (Rule 87 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkCMD_mthresh (Rule 88 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./spyglass-1/power/power_activity_check/spyglass_spysch/constraint/spg_autogenerated_delete_waivers.sgdc" ...
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Restoring SDE Data started: 4 sec, 3.22 sec, 932080 KB, 3690292 KB
+##SGDEBUG [BENCHMARK_INCR]: Restoring SDE Data started: 0 sec, 0.09 sec, 1984 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Restoring SDE Data completed: 4 sec, 3.35 sec, 933584 KB, 3690292 KB
+##SGDEBUG [BENCHMARK_INCR]: Restoring SDE Data completed: 0 sec, 0.13 sec, 1504 KB, 0 KB
+     (Memory Used = 1504.0K(incr), 933584.0K(tot), Cpu Time = 0.19s(incr))
+Checking Rule SGDC_waive37 (Rule 89 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule DetectTopDesignUnits (Rule 90 of total 249) Detected 1 top level design units: 
+     TOP
+ .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 91 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module output_buffer (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module output_buffer (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_0 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_0 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_1 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_1 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_2 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_2 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_3 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_3 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_4 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_4 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_5 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_5 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_6 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_6 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_7 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_7 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_8 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_8 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_9 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_9 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_10 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_10 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_11 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_11 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_12 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_12 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_13 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_13 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_14 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_14 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_15 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_15 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_16 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_16 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_17 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_17 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_18 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_18 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_19 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_19 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_20 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_20 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_21 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_21 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_22 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_22 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_23 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_23 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_24 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_24 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_25 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_25 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_26 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_26 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module PE_27 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module PE_27 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module stair_array (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module stair_array (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_0 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_0 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_1 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_1 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_2 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_2 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_3 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_3 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_4 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_4 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_5 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_5 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_6 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_6 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_7 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_7 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_8 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_8 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_9 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_9 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_10 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_10 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_11 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_11 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_12 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_12 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_13 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_13 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_14 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_14 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_0 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_0 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_1 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_1 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_2 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_2 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_3 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_3 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_4 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_4 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_5 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_5 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_6 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_6 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_7 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_7 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_8 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_8 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_9 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_9 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_10 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_10 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_11 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_11 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_12 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_12 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_13 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_13 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_14 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_14 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_15 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_15 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_0 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_0 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_0 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_0 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_15 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_15 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_16 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_16 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_17 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_17 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_18 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_18 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_19 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_19 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_20 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_20 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_21 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_21 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_22 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_22 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_23 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_23 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_24 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_24 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_25 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_25 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_26 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_26 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_27 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_27 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_28 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_28 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_29 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_29 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_16 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_16 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_17 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_17 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_18 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_18 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_19 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_19 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_20 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_20 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_21 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_21 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_22 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_22 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_23 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_23 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_24 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_24 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_25 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_25 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_26 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_26 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_27 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_27 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_28 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_28 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_29 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_29 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_30 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_30 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_31 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_31 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_1 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_1 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_1 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_1 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_30 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_30 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_31 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_31 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_32 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_32 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_33 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_33 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_34 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_34 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_35 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_35 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_36 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_36 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_37 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_37 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_38 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_38 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_39 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_39 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_40 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_40 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_41 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_41 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_42 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_42 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_43 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_43 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_44 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_44 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_32 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_32 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_33 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_33 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_34 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_34 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_35 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_35 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_36 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_36 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_37 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_37 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_38 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_38 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_39 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_39 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_40 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_40 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_41 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_41 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_42 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_42 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_43 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_43 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_44 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_44 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_45 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_45 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_46 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_46 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_47 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_47 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_2 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_2 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_2 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_2 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_45 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_45 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_46 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_46 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_47 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_47 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_48 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_48 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_49 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_49 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_50 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_50 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_51 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_51 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_52 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_52 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_53 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_53 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_54 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_54 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_55 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_55 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_56 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_56 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_57 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_57 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_58 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_58 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_59 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_59 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_48 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_48 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_49 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_49 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_50 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_50 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_51 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_51 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_52 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_52 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_53 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_53 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_54 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_54 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_55 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_55 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_56 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_56 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_57 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_57 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_58 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_58 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_59 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_59 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_60 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_60 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_61 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_61 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_62 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_62 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_63 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_63 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_3 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_3 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_3 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_3 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_60 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_60 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_61 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_61 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_62 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_62 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_63 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_63 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_64 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_64 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_65 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_65 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_66 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_66 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_67 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_67 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_68 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_68 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_69 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_69 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_70 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_70 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_71 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_71 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_72 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_72 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_73 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_73 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_74 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_74 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_64 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_64 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_65 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_65 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_66 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_66 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_67 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_67 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_68 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_68 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_69 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_69 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_70 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_70 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_71 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_71 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_72 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_72 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_73 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_73 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_74 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_74 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_75 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_75 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_76 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_76 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_77 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_77 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_78 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_78 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_79 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_79 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_4 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_4 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_4 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_4 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_75 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_75 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_76 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_76 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_77 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_77 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_78 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_78 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_79 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_79 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_80 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_80 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_81 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_81 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_82 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_82 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_83 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_83 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_84 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_84 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_85 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_85 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_86 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_86 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_87 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_87 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_88 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_88 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_89 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_89 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_80 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_80 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_81 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_81 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_82 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_82 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_83 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_83 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_84 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_84 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_85 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_85 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_86 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_86 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_87 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_87 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_88 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_88 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_89 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_89 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_90 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_90 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_91 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_91 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_92 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_92 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_93 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_93 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_94 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_94 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_95 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_95 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_5 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_5 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_5 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_5 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_90 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_90 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_91 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_91 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_92 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_92 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_93 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_93 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_94 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_94 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_95 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_95 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_96 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_96 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_97 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_97 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_98 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_98 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_99 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_99 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_100 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_100 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_101 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_101 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_102 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_102 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_103 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_103 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_104 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_104 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_96 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_96 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_97 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_97 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_98 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_98 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_99 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_99 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_100 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_100 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_101 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_101 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_102 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_102 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_103 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_103 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_104 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_104 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_105 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_105 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_106 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_106 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_107 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_107 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_108 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_108 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_109 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_109 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_110 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_110 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_111 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_111 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_6 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_6 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_6 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_6 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_105 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_105 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_106 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_106 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_107 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_107 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_108 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_108 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_109 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_109 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_110 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_110 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_111 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_111 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_112 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_112 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_113 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_113 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_114 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_114 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_115 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_115 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_116 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_116 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_117 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_117 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_118 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_118 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_next_119 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_next_119 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_112 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_112 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_113 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_113 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_114 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_114 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_115 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_115 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_116 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_116 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_117 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_117 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_118 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_118 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_119 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_119 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_120 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_120 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_121 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_121 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_122 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_122 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_123 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_123 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_124 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_124 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_125 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_125 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_126 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_126 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module exp_tree_127 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module exp_tree_127 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module get_shared_exp_7 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module get_shared_exp_7 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module fp16_to_mxint_7 (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module fp16_to_mxint_7 (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDCPARSE for module TOP (Rule 92 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESDCINIT for module TOP (Rule 93 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed. (Time = 1.07s, Memory = 192.0K)
+Checking Rule SGDC_testmode03 (Rule 94 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 95 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 96 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 97 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 98 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 99 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset02 (Rule 100 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset03 (Rule 101 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive23 (Rule 102 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 103 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 104 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 105 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_libgroup03 (Rule 106 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 107 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 108 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 109 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 110 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 111 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 112 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 113 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 114 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 115 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 116 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port13 (Rule 117 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema01 (Rule 118 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 (Rule 119 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 120 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 121 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDC_WRN01 (Rule 122 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SDC2SGDC_STX01 (Rule 123 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est03 (Rule 124 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est11 (Rule 125 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est22 (Rule 126 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est23 (Rule 127 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est27 (Rule 128 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est28 (Rule 129 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est30 (Rule 130 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est31 (Rule 131 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_power_est50 (Rule 132 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CPF_power_est01 (Rule 133 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CPF_power_est02 (Rule 134 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule UPF_power_est01 (Rule 135 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule UPF_power_est02 (Rule 136 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule UPF_power_est03 (Rule 137 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule UPF_power_est04 (Rule 138 of total 249) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule UPF_power_est05 (Rule 139 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est33 (Rule 140 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est35 (Rule 141 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est36 (Rule 142 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est37 (Rule 143 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est43 (Rule 144 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est44 (Rule 145 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est45 (Rule 146 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est64 (Rule 147 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est52 (Rule 148 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est55 (Rule 149 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_est56 (Rule 150 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESPEFINIT (Rule 151 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK05 (Rule 152 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK08 (Rule 153 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK42 (Rule 154 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK09 (Rule 155 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK15 (Rule 156 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK22 (Rule 157 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK_DVFSIP (Rule 158 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK38 (Rule 159 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK44 (Rule 160 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: VS rule checking finished...: 6 sec, 4.80 sec, 949232 KB, 3690292 KB
+##SGDEBUG [BENCHMARK_INCR]: VS rule checking finished...: 2 sec, 1.45 sec, 15648 KB, 0 KB
+Checking Rule AnalyzeBBox (Rule 161 of total 249) .... done (Time = 0.00s, Memory = 0.0K)
+
+SpyGlass Rule Checking ABORTED.
+
+Generating data for Console...
+
+Generating moresimple report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './spyglass-1/power/power_activity_check/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating pe_slew report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_slew.rpt' ....
+
+Generating pe_clock_gating_summary report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_clock_gating_summary.rpt' ....
+
+Generating pe_design_stats report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_design_stats.rpt' ....
+
+Generating pe_debug_info report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_debug_info.rpt' ....
+
+Generating pe_adv_reduction report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_adv_reduction.rpt' ....
+
+Generating pe_reduction report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_reduction.rpt' ....
+
+Generating pe_wireload report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_wireload.rpt' ....
+
+Generating pe_cycle_power report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_cycle_power.rpt' ....
+
+Generating pe_summary report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_summary.rpt' ....
+
+Generating pe_audit report from './spyglass-1/power/power_activity_check/spyglass.vdb' to './spyglass-1/power/power_activity_check/spyglass_reports/pe_audit.rpt' ....
+
+Policy specific data (reports) are present in the directory './spyglass-1/power/power_activity_check/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './spyglass-1/consolidated_reports/power_power_activity_check/'.
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 3690292 KB for entire run at 'SDC2SGDCPARSEW_1.Init' stage
+##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
+##SGDEBUG [VMPEAK_MEMORY]: 3939264 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 1627828 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking aborted: 6 sec, 5.30 sec, 948976 KB, 3690288 KB
+##SGDEBUG [BENCHMARK_INCR]: Rule checking aborted: 0 sec, 0.49 sec, -256 KB, -4 KB
+
+
+=====================================================================================
+							Rule Parameter Table
+=====================================================================================
+
+	PARAMETER-NAME                                     VALUE                DEFAULT VALUE
+-------------------------------------------------------------------------------------
+	-allow_clock_on_output_port                        no                   no
+	-assign_domain_conflict_clocks                     yes                  yes
+	-check_clock_group_violations                      no                   no
+	-chip                                              unspecified          unspecified
+	-clock_group_dump_default                          yes                  yes
+	-debug_proc                                        no                   no
+	-force_genclk_for_txv                              no                   no
+	-library_gen_clock_naming                          yes                  yes
+	-netlist_clock_polarity                            yes                  yes
+	-pe_accurate_activity_calc                         0                    0
+	-pe_activity_all_cycles                            no                   no
+	-pe_activity_priority                              sim                  sim
+	-pe_advanced_internal_power_calc                   yes                  yes
+	-pe_allow_multiple_sglibs                          0                    0
+	-pe_allow_non_lrm_spef                             0                    0
+	-pe_allowed_flop_data_pins                         1                    1
+	-pe_always_labelize_paths                          1                    1
+	-pe_annotate_multiple_id                           0                    0
+	-pe_auto_infer_slew                                1                    1
+	-pe_buffer_slew                                    -1                   -1
+	-pe_calc_internal_only_for_memory                  0                    0
+	-pe_calc_lk                                        yes                  yes
+	-pe_calc_sc                                        yes                  yes
+	-pe_calc_sw                                        yes                  yes
+	-pe_calibration_data_dir                           UNDEFINED            UNDEFINED
+	-pe_compress_reports                               2                    2
+	-pe_consolidate_goal                               UNDEFINED            UNDEFINED
+	-pe_crdb_filename                                  UNDEFINED            UNDEFINED
+	-pe_detail_pr_debug                                no                   no
+	-pe_detailed_cg                                    0                    0
+	-pe_disable_flat_rule                              0                    0
+	-pe_disable_goal_consolidation                     1                    1
+	-pe_disable_monitor                                no                   no
+	-pe_display_trace_advancement                      0                    0
+	-pe_dmi_inst_inst                                  1                    1
+	-pe_dmi_net_inst                                   0                    0
+	-pe_dump_slew                                      0                    0
+	-pe_dw_unannotation_support                        0                    0
+	-pe_emulator_db_optimize                           both                 both
+	-pe_emulator_run                                   none                 none
+	-pe_enable_advance_cgemetric                       0                    0
+	-pe_enable_area_based_vt                           1                    1
+	-pe_enable_bus_merging_in_platform                 1                    1
+	-pe_enable_clock_browser                           1                    1
+	-pe_enable_fsdb_trace                              no                   no
+	-pe_enable_hpdb_info                               2                    2
+	-pe_enable_mem_macro_cg                            0                    0
+	-pe_enable_memory_trace                            no                   no
+	-pe_enable_monitor_on_all_nets                     0                    0
+	-pe_enable_monitor_on_clock_nets                   2                    2
+	-pe_enable_monitor_on_data_nets                    0                    0
+	-pe_enable_monitor_on_dw_nets                      0                    0
+	-pe_enable_monitor_on_enable_nets                  2                    2
+	-pe_enable_monitor_on_memory_enable_nets           0                    0
+	-pe_enable_monitor_on_mux_select                   0                    0
+	-pe_enable_mvdd_mapping                            no                   no
+	-pe_enable_name_based_sizing                       0                    0
+	-pe_enable_new_power_calc                          1                    1
+	-pe_enable_nom_modification                        0                    0
+	-pe_enable_old_vt_flow                             0                    0
+	-pe_enable_pr_debug                                no                   no
+	-pe_enable_resource_opt                            0                    0
+	-pe_enable_swap_on_netlist                         0                    0
+	-pe_estimate_macro_power                           1                    1
+	-pe_fsdb_dumpOff_consider                          0                    0
+	-pe_fsdb_fast_read                                 1                    1
+	-pe_fsdb_filename                                  UNDEFINED            UNDEFINED
+	-pe_fsdb_session_window                            1                    1
+	-pe_fsdb_thread_count                              0                    0
+	-pe_generate_correlation_csv                       no                   no
+	-pe_generate_fsdb                                  0                    0
+	-pe_glitch_threshold                               0                    0
+	-pe_glitch_threshold_debug                         10                   10
+	-pe_hierarchy_separator                            UNDEFINED            UNDEFINED
+	-pe_high_accuracy                                  no                   no
+	-pe_ignore_SGDC_rules                              UNDEFINED            UNDEFINED
+	-pe_ignore_latch_in_inferred_clock                 1                    1
+	-pe_ignore_multiflops                              1                    1
+	-pe_ignore_rtl_delay_in_trace                      0                    0
+	-pe_ignore_sim_information                         0                    0
+	-pe_ignore_test_pin_for_af                         no                   no
+	-pe_improve_annotation                             0                    0
+	-pe_include_hanging_nets_for_annotation            1                    1
+	-pe_include_pi_activity                            no                   no
+	-pe_infer_gatingcell_as_cgc                        1                    1
+	-pe_inferred_clock_threshold                       100                  100
+	-pe_inst_mapping                                   0                    0
+	-pe_limit_extrapolation_range                      0                    0
+	-pe_logic_depth                                    15                   15
+	-pe_min_percent_for_match_pattern                  0.9                  0.9
+	-pe_min_percent_for_max_cap                        0.9                  0.9
+	-pe_monitors_in_est                                0                    0
+	-pe_mvdd_percent_volt_tolerance                    10                   10
+	-pe_mvdd_use_all_voltages                          yes                  yes
+	-pe_new_mapper_flow                                0                    0
+	-pe_nonrtl_sequential_nets_annotation              no                   no
+	-pe_num_clock_cycles_avg_act                       -1                   -1
+	-pe_num_clock_cycles_avg_power                     -1                   -1
+	-pe_num_flops_on_undriven_clk                      32                   32
+	-pe_num_fsdb_load_session                          1                    1
+	-pe_num_nets_spef_info                             50                   50
+	-pe_num_peak_act                                   0                    0
+	-pe_num_unset_nets                                 1000                 1000
+	-pe_old_calibration                                0                    0
+	-pe_percentage_glitch                              2                    2
+	-pe_percentage_unset_nets                          10                   10
+	-pe_pin_cap_included                               0                    0
+	-pe_pin_capacitance_mode                           worst                worst
+	-pe_pin_capacitance_rise_fall_based_on_mode        0                    0
+	-pe_pin_capacitance_type                           rise_fall_capacitance_range,rise_fall_capacitance,capacitance rise_fall_capacitance_range,rise_fall_capacitance,capacitance
+	-pe_platform_debug                                 0                    0
+	-pe_preserve_flop_output_buffer                    0                    0
+	-pe_prop_fastest_clock                             0                    0
+	-pe_propagate_actual_freq                          1                    1
+	-pe_propagate_slew                                 0                    0
+	-pe_propagate_slew_debug                           0                    0
+	-pe_ptpx_multidriven_support                       0                    0
+	-pe_queue_for_lic                                  px                   px
+	-pe_remove_multidriven_handling                    0                    0
+	-pe_remove_rme_report_references                   1                    1
+	-pe_report_arithmetic_operators                    0                    0
+	-pe_report_avg_cge_for_zero_clocks                 no                   no
+	-pe_report_detailed_cg_info                        0                    0
+	-pe_report_format                                  tree                 tree
+	-pe_report_slew_values                             1                    1
+	-pe_report_total_activity                          0                    0
+	-pe_reset_negative_extrapolation_value             0                    0
+	-pe_revert_to_old_upf                              1                    1
+	-pe_run_profiling                                  0                    0
+	-pe_saif_persist_om                                yes                  yes
+	-pe_sampling_period                                UNDEFINED            UNDEFINED
+	-pe_set_cell_allocation                            1                    1
+	-pe_set_potential_saving_percent                   0                    0
+	-pe_show_nonrtl_nets_auto_activity                 no                   no
+	-pe_sim_annot_case_sensitivity                     auto                 auto
+	-pe_sim_annot_effort_level                         0                    0
+	-pe_sim_annot_interface                            1                    1
+	-pe_sim_annot_mbff_name                            0                    0
+	-pe_sim_data_dir                                   UNDEFINED            UNDEFINED
+	-pe_sim_enable_multithread                         0                    0
+	-pe_sim_enable_save_restore                        2                    2
+	-pe_sim_endtime                                    -1                   -1
+	-pe_sim_force_save                                 0                    0
+	-pe_sim_gen_as_mod                                 0                    0
+	-pe_sim_rtl_design_nl                              0                    0
+	-pe_sim_starttime                                  -1                   -1
+	-pe_sim_topname                                    UNDEFINED            UNDEFINED
+	-pe_slew                                           0.1                  0.1
+	-pe_spef_annotation_threshold                      80                   80
+	-pe_sub_optimal_gating_threshold                   10                   10
+	-pe_tao_sglib                                      UNDEFINED            UNDEFINED
+	-pe_timing_opt                                     both                 both
+	-pe_unannotation_adv_report                        0                    0
+	-pe_unannotation_sequential_adv_report             0                    0
+	-pe_undriven_net_zero_act                          yes                  yes
+	-pe_use_area_categorization                        0                    0
+	-pe_use_calibration_data                           UNDEFINED            UNDEFINED
+	-pe_use_sim_start_time                             0                    0
+	-pe_vcd_filename                                   UNDEFINED            UNDEFINED
+	-pe_wireload_source                                user_lib             user_lib
+	-pe_wlmode                                         default              default
+	-pe_xfactor                                        0.5                  0.5
+	-pe_zebu_perf_debug                                0                    0
+	-populate_comboelements_for_minmax_in_fromto       no                   no
+	-post_clock_group_population                       no                   no
+	-preserve_path                                     no                   no
+	-pt                                                yes                  yes
+	-sdc2sgdc_file_dump_type                           default              default
+	-sec_atime                                         -1                   -1
+	-show_all_sdc_violations                           no                   no
+	-show_sdc_progress                                 no                   no
+	-spg2wsh_bname                                     UNDEFINED            UNDEFINED
+	-spg2wsh_dir                                       UNDEFINED            UNDEFINED
+	-spg2wsh_generate_handoff                          0                    0
+	-suppress_sdc_violation_in_abstract                no                   no
+	-tc_cache_empty_collections                        no                   no
+	-tc_disable_caching                                no                   no
+	-tc_disable_ignored_command_dump                   yes                  yes
+	-tc_enable_sdc_393                                 no                   no
+	-tc_ignored_commands                               unspecified          unspecified
+	-tc_stop_parsing_ignored_commands                  yes                  yes
+	-truncate_through                                  yes                  yes
+	-use_hier_sep_slash                                no                   no
+	-write_sdc                                         no                   no
+=====================================================================================
+
+
+
+=====================================================================================
+                               Rule Status Table
+
+ RULE-NAME                      POLICY-NAME     ENABLED VIOL-CNT RULE-TYPE   ERROR-MSG         
+=====================================================================================
+ PEGEN02                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEGEN01                        power_est       No             - VSTOPDU        -               
+ PEPROFILER02                   power_est       No             - SETUP          -               
+ PRCHECK01                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK55                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK56                      power_est       No             - RTLTOPDU       -               
+ PECHECK25                      power_est       No             - RTLALLDULIST   -               
+ PESTR32              (Verilog) power_est       No             - ELABDU         -               
+ PESTR32              (VHDL   ) power_est       No             - ELABDU         -               
+ PEPWR18                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESAE08                        power_est       No             - FLATDU2_PRD_WL   -               
+ PECDMISGDC                     power_est       No             - FLATDU2_PRD_WL   -               
+ PECWL                          power_est       No             - FLATDU2_PRD_WL   -               
+ PESAE07                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESAE06                        power_est       No             - FLATDU2_PRD_WL   -               
+ poweraudit                     power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR12                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR11                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR10                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR09                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR08                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR06                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR06                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR13                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR13                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR33                        power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK27                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK26                      power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR05                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR03                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPROFILER01                   power_est       No             - SETUP          -               
+ PECHECK58                      power_est       No             - SETUP          -               
+ sgdc2sdc                       power_est       No             - RTLALLDULIST   -               
+ PECHECK03                      power_est       No             - FLATDU2_PRD_WL   -               
+ PESAE03                        power_est       No             - FLATDU2_PRD_WL   -               
+ PECLKMESH01                    power_est       No             - FLATDU2_PRD_WL   -               
+ PECLKTREE                      power_est       No             - FLATDU2_PRD_WL   -               
+ PESETUP01                      power_est       No             - FLATDU2_PRD_WL   -               
+ PEPTAB02                       power_est       No             - RTLALLDULIST   -               
+ PEMEMCOND                      power_est       No             - SETUP          -               
+ PEPTAB01                       power_est       No             - FLATDU2_PRD_WL   -               
+ PEPESD01                       power_est       No             - FLATDU2_PRD_WL   -               
+ PRFIFOS01                      power_est       No             - FLATDU2_PRD_WL   -               
+ PRARITH01                      power_est       No             - FLATDU2_PRD_WL   -               
+ PRCOUNT01                      power_est       No             - FLATDU2_PRD_WL   -               
+ PESAE02                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR02                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR33A                       power_est       No             - FLATDU2_PRD_WL   -               
+ PECLKMESH02                    power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR14                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR05                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR27                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR03                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR26                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR30                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESLEWEXTRACT                  power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR31                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR25                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR29                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR28                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR24                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR23                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR22                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR21                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR20                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR25                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR29                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR28                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR24                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR23                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR22                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR21                        power_est       No             - FLATDU2_PRD_WL   -               
+ PESTR20                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEPWR01                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEATD01                        power_est       No             - FLATDU2_PRD_WL   -               
+ PECSA01                        power_est       No             - FLATDU2_PRD_WL   -               
+ PEVTDIST                       power_est       No             - FLATDU2_PRD_WL   -               
+ PECELLDIST                     power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK02                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK12                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK10                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK01                      power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK13B                     power_est       No             - FLATDU2_PRD_WL   -               
+ PECHECK13                      power_est       No             - FLATDU2_PRD_WL   -               
+ SGDC_power_est34               power_est       No             - RTLALLDULIST   -               
+ PE_UPF_SETUP02                 power_est       No             - VSTOPDU        -               
+ SGDC_power_est49               power_est       No             - RTLTOPDU       -               
+ SGDC_power_est26               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est25               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est24               power_est       No             - FLATDU2_PRD_WL   -               
+ SGDC_power_est20               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est18               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est17               power_est       No             - SETUP          -               
+ SGDC_power_est16               power_est       No             - SETUP          -               
+ SGDC_power_est15               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est14               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est10               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est09               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est08               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est05               power_est       No             - RTLALLDULIST   -               
+ SGDC_power_est04               power_est       No             - RTLALLDULIST   -               
+ PECHECK54                      power_est       Yes            0 SETUP          -               
+ PECHECK48                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PEMVDD01                       power_est       Yes            0 SETUP          -               
+ PECHECK51                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK52                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK57                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK45                      power_est       Yes            0 RTLALLDULIST   -               
+ PECHECK44                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK47                      power_est       Yes            0 SETUP          -               
+ PECHECK46                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK43                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK38                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK34                      power_est       Yes            0 SETUP          -               
+ PECHECK33                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK32                      power_est       Yes            0 SETUP          -               
+ PECHECK53                      power_est       Yes            0 SETUP          -               
+ PECHECK31                      power_est       Yes            0 SETUP          -               
+ PECHECK29                      power_est       Yes            0 SETUP          -               
+ PECHECK28                      power_est       Yes            0 SETUP          -               
+ PECHECK24                      power_est       Yes            0 SETUP          -               
+ PECHECK_DVFSIP                 power_est       Yes            0 VSTOPDU        -               
+ PECHECK22                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK21                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECON01                        power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PERES02                        power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PERES01                        power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK50                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK30                      power_est       Yes            0 SETUP          -               
+ PECHECK20                      power_est       Yes            0 SETUP          -               
+ PECHECK23                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK16                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK18                      power_est       Yes            0 SETUP          -               
+ PECHECK15                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK14                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK09                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK42                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK08                      power_est       Yes            0 VSTOPDU        -               
+ PECHECK07                      power_est       Yes            0 RTLALLDULIST   -               
+ PECHECK06                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK05                      power_est       Yes            0 VSTOPDU        -               
+ PESAE04                        power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PEVLESSINIT                    power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PESVASETUP01                   power_est       Yes            0 VSDULIST       -               
+ PECHECK41                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK39                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK11                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK37                      power_est       Yes            0 SETUP          -               
+ PECHECK40                      power_est       Yes            0 FLATDU2_WL     -               
+ PESDCINIT                      power_est       Yes            0 VSDU           -               
+ PESPEFINIT                     power_est       Yes            0 VSTOPDU        -               
+ PECHECK49                      power_est       Yes            0 FLATDU2_PRD_WL   -               
+ PECHECK04                      power_est       Yes            0 SETUP          -               
+ SGDC_set_black_box_power02     power_est       Yes            0 SETUP          -               
+ SGDC_set_black_box_power01     power_est       Yes            0 SETUP          -               
+ SGDC_power_est70               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est69               power_est       Yes            0 SETUP          -               
+ SGDC_power_est68               power_est       Yes            0 SETUP          -               
+ SGDC_power_est67               power_est       Yes            0 SETUP          -               
+ SGDC_power_est66               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est65               power_est       Yes            0 SETUP          -               
+ SGDC_power_est63               power_est       Yes            0 SETUP          -               
+ SGDC_power_est61               power_est       Yes            0 SETUP          -               
+ SGDC_power_est62               power_est       Yes            0 SETUP          -               
+ SGDC_power_est59               power_est       Yes            0 SETUP          -               
+ SGDC_power_est58               power_est       Yes            0 SETUP          -               
+ SGDC_power_est57               power_est       Yes            0 SETUP          -               
+ SGDC_power_est56               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est55               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est54               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est53               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est52               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est47               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est64               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est46               power_est       Yes            0 SETUP          -               
+ SGDC_power_est45               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est44               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est43               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est42               power_est       Yes            0 SETUP          -               
+ SGDC_power_est41               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est40               power_est       Yes            0 SETUP          -               
+ SGDC_power_est39               power_est       Yes            0 SETUP          -               
+ SGDC_power_est38               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est37               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est36               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est35               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est29               power_est       Yes            0 SETUP          -               
+ SGDC_power_est33               power_est       Yes            0 VSTOPDU        -               
+ UPF_power_est05                power_est       Yes            0 VSTOPDU        -               
+ UPF_power_est04                power_est       Yes            0 VSTOPDU        -               
+ UPF_power_est03                power_est       Yes            0 VSTOPDU        -               
+ UPF_power_est02                power_est       Yes            0 VSTOPDU        -               
+ UPF_power_est01                power_est       Yes            0 VSTOPDU        -               
+ PE_UPF_SETUP                   power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est48               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ CPF_power_est02                power_est       Yes            0 VSTOPDU        -               
+ CPF_power_est01                power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est51               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est50               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est31               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est30               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est32               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est28               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est27               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est23               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est22               power_est       Yes            1 VSTOPDU        -               
+ SGDC_power_est21               power_est       Yes            0 FLATDU2_PRD_WL   -               
+ SGDC_power_est13               power_est       Yes            0 SETUP          -               
+ SGDC_power_est12               power_est       Yes            0 SETUP          -               
+ SGDC_power_est11               power_est       Yes            0 VSTOPDU        -               
+ SGDC_power_est03               power_est       Yes            0 VSTOPDU        -               
+ SDC_214                        SpyGlass        Yes            1 SETUP          -               
+ SDC_106                        SpyGlass        Yes            2 SETUP          -               
+ SYNTH_5142                     SpyGlass        Yes           55 SETUP          -               
+ INFO_1010            (Verilog) SpyGlass        Yes            5 SETUP          -               
+ SYNTH_92             (Verilog) SpyGlass        Yes           57 SETUP          -               
+ CheckCelldefine      (Verilog) SpyGlass        Yes            1 VSDULIST       -               
+ ElabSummary                    SpyGlass        Yes            1 SETUP          -               
+ DetectTopDesignUnits           SpyGlass        Yes            1 SETUP          -               
+-------------------------------------------------------------------------------------
+Note: VSDU type of rules (as seen in the above table) are not run on
+      unsynthesized modules reported by 'ErrorAnalyzeBBox/InfoAnalyzeBBox' messages
+      (Please see messages starting with keyword 'UnsynthesizedDU')
+
+##status : SpyGlass Rule Checking Aborted.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      power/power_activity_check
+** Design Read        :      0 fatal,      2 errors,     113 warnings,     8 information messages
+      Found 1 top module:
+         TOP   (file: ../../syn/LAB3/outputs/TOP_gate.v)
+
+** Policy power_est   :      1 fatal,      0 error,        0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+** Total              :      1 fatal,      2 errors,     113 warnings,     8 information messages
+
+  Total Number of Generated Messages     :       124 (1 fatal, 2 errors, 113 warnings, 8 Infos)
+  Number of Reported Messages            :       124 (1 fatal, 2 errors, 113 warnings, 8 Infos)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+Following FATAL message(s) generated in current run -
+
+Rule               Severity   File   Line   Message
+-------------------------------------------------------------------------
+SGDC_power_est22   Fatal      N.A.   0      No VCD/FSDB file specified. Use the switch -pe_vcd_filename/-pe_fsdb_filename to specify the VCD/FSDB file or use the constraint 'activity_data' to specify the simulation file(s)
+
+FATAL : Rule-checking aborted - usage or run error
+
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      power/power_activity_check
+   Top Module         :      TOP
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/consolidated_reports/power_power_activity_check/ 
+
+   SpyGlass LogFile: 
+    /mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/power/power_activity_check/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /mnt/home/dice12/dice/proj3/spy/pj3/spyglass-1/html_reports/goals_summary.html
+  
+
+   Technology Reports:    Power( Power Estimation )
+     pe_debug_info.rpt          pe_summary.rpt          pe_wireload.rpt      
+     pe_cycle_power.rpt          pe_audit.rpt          pe_design_stats.rpt          pe_adv_reduction.rpt      
+     pe_reduction.rpt          pe_slew.rpt          pe_clock_gating_summary.rpt        
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         1 Fatals,    2 Errors,    113 Warnings,      8 Infos
+---------------------------------------------------------------------------------------------------
+   
+   Technology Summary: Power   
+---------------------------------------------------------------------------------------------------
+ 
+SpyGlass Exit Code 7 (Rule-checking terminated due to FATAL errors - usage or run error)
+SpyGlass total run-time is 00:00:05 (5 secs)
+SpyGlass total cpu-time is 6 secs
+SpyGlass run completed at 11:10:11 PM on Dec 21 2024

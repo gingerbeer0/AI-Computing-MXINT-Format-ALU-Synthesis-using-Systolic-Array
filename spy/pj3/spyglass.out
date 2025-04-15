@@ -1,0 +1,28 @@
+
+                        SpyGlass Predictive Analyzer (R)
+                              Synopsys TestMAX(TM)
+
+              Version Q-2020.03-SP2-3 for linux64 - Jan 21, 2021 
+
+                    Copyright (c) 2001 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+INFO [SPG#1044]: Running in batch mode...
+
+FATAL : SpyGlass Classic flow mode has been detected
+        Classic flow mode is no longer supported as of SpyGlass 5.4 release
+
+        Please refer SpyGlass Quick Start Guide:
+           % spyglass -quickstart
+
+        For more details, please refer to Atrenta Console User Guide. You can view
+        this document after invoking the HTML help by using spyhelpviewer utility,
+        which shows all SpyGlass documentation:
+           % spyhelpviewer
+
+
+SpyGlass Exit Code 7 (Rule-checking terminated due to FATAL errors - usage or run error)

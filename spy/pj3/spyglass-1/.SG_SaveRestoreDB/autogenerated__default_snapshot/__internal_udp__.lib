@@ -1,0 +1,100 @@
+library (_udp_to_dotlib_) {
+ 	cell(saed32_dff_pos_lvt) {
+ 		pin(q) {
+			direction : output;
+			function : "IQ";
+		}
+ 		pin(d) {
+			direction : input;
+		}
+ 		pin(clk) {
+			direction : input;
+		}
+ 		pin(rstb) {
+			direction : input;
+		}
+ 		pin(setb) {
+			direction : input;
+		}
+ 		pin(notifier) {
+			direction : input;
+		}
+ 		ff(IQ,IQN) {
+ 			clear : "!rstb";
+ 			preset : "!setb";
+ 			clear_preset_var1: L;
+ 			clear_preset_var2: L;
+ 			next_state : "d & notifier";
+ 			clocked_on : "clk";
+ 		}
+	}
+ 	cell(saed32_xbuf_lvt) {
+ 		pin(o) {
+			direction : output;
+			function : " (i & dummy) |  (dummy)";
+			timing() {
+				related_pin : "i dummy";
+			}
+		}
+ 		pin(i) {
+			direction : input;
+		}
+ 		pin(dummy) {
+			direction : input;
+		}
+ 	}
+ 	cell(s_mux21x1__HVT) {
+ 		pin(Y) {
+			direction : output;
+			function : " ((!S0) & A1) |  (S0 & A2)";
+			timing() {
+				related_pin : "S0 A1 A2";
+			}
+		}
+ 		pin(S0) {
+			direction : input;
+		}
+ 		pin(A2) {
+			direction : input;
+		}
+ 		pin(A1) {
+			direction : input;
+		}
+ 	}
+ 	cell(s_faddx1_S__HVT) {
+ 		pin(S) {
+			direction : output;
+			function : " ((!CI) & (!B) & A) |  ((!CI) & B & (!A)) |  (CI & B & A) |  (CI & (!B) & (!A))";
+			timing() {
+				related_pin : "CI B A";
+			}
+		}
+ 		pin(CI) {
+			direction : input;
+		}
+ 		pin(B) {
+			direction : input;
+		}
+ 		pin(A) {
+			direction : input;
+		}
+ 	}
+ 	cell(s_faddx1_CO__HVT) {
+ 		pin(CO) {
+			direction : output;
+			function : " ((!CI) & B & A) |  (CI & B & (!A)) |  (CI & B & A) |  (CI & (!B) & A)";
+			timing() {
+				related_pin : "CI B A";
+			}
+		}
+ 		pin(CI) {
+			direction : input;
+		}
+ 		pin(B) {
+			direction : input;
+		}
+ 		pin(A) {
+			direction : input;
+		}
+ 	}
+}

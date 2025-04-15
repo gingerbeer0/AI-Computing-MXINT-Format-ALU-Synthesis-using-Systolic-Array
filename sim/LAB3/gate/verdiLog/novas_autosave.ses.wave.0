@@ -1,0 +1,80 @@
+Magic 271485
+Revision Verdi_V-2023.12-SP2-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1440 571 239 120
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/mnt/home/dice12/dice/proj3/sim/LAB3/gate/result.fsdb" "/mnt/home/dice12/dice/proj3/sim/LAB3/gate/result.fsdb.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 2767400.000000
+cursor 2650000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 8
+; marker line index
+markerPos 12
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/mnt/home/dice12/dice/proj3/sim/LAB3/gate/result.fsdb.fsdb"
+addSignal -h 15 /TOP_tb/CLK
+addSignal -h 15 -holdScope RSTN
+addSignal -h 15 -UNSIGNED -HEX -holdScope calc[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cycle_count_add
+addSignal -h 15 -UNSIGNED -HEX -holdScope cycle_count_mult
+addSignal -h 15 -UNSIGNED -HEX -holdScope cycle_count_mxint
+addSignal -h 15 -UNSIGNED -HEX -holdScope cycle_count_sub
+addSignal -h 15 -UNSIGNED -HEX -holdScope log_file
+addSignal -w analog -ds pwl -c ID_RED5 -ls solid -lw 1 -h 98 -holdScope mxint_snr
+addSignal -w analog -ds pwl -c ID_ORANGE5 -ls solid -lw 1 -h 98 -holdScope snr_add
+addSignal -w analog -ds pwl -c ID_YELLOW5 -ls solid -lw 1 -h 98 -holdScope snr_mult
+addSignal -w analog -ds pwl -c ID_GREEN5 -ls solid -lw 1 -h 98 -holdScope snr_sub
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/mnt/home/dice12/dice/proj3/sim/LAB3/gate/result.fsdb.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/AND4X2_HVT"
+
+SCOPE_LIST_BEGIN
+"/AND4X2_HVT"
+"/TOP_tb"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

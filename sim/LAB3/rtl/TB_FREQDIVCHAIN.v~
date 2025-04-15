@@ -1,0 +1,11 @@
+module TB_FREQDIVCHAIN;
+/*AUTOREGINPUT*/
+/*AUTOWIRE*/
+
+FREQDIVCHAIN 
+DUT
+(/*AUTOINST*/);
+endmodule
+// Local Variables:
+// verilog-library-directories: ("." "./../../../rtl/LAB3" )
+// End:

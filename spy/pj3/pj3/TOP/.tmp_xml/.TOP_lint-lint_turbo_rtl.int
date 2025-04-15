@@ -1,0 +1,8 @@
+INPUT@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass_reports@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/html_reports/data_files/@@TOP@@lint-lint_turbo_rtl@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass_reports/moresimple.rpt@@data_files/TOP_lint-lint_turbo_rtl_moresimple.rpt@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/TOP_lint-lint_turbo_rtl_no_msg_reporting_rules.rpt@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass_reports/auto_verify.rpt@@data_files/TOP_lint-lint_turbo_rtl_auto_verify.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass_reports/moresimple_turbo.rpt@@data_files/TOP_lint-lint_turbo_rtl_moresimple_turbo.rpt.html@@
+REGEN@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass_reports/ADV-LINT.rpt@@data_files/TOP_lint-lint_turbo_rtl_ADV-LINT.rpt.html@@
+PROCESS@@morelint@@area@@simulation@@sdc2sgdc@@starc@@openmore@@starc2002@@SpyGlass@@auto-verify@@latch@@starc2005@@Audits@@lint@@timing@@erc@@miscellaneous
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_turbo_rtl/spyglass.log@@data_files/TOP_lint-lint_turbo_rtl_spyglass.log@@

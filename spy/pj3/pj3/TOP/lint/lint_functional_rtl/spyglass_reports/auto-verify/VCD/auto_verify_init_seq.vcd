@@ -1,0 +1,328 @@
+$date
+	Sat Dec 21 22:49:50 2024
+
+$end
+$version
+	BMC-0.1
+$end
+$timescale
+	1ps
+$end
+
+$var integer 16 verification_cycle verification_cycle $end
+$scope module TOP $end
+
+$var wire 1 & RSTN $end
+$var wire 2 ' calc [1:0] $end
+$var wire 16 ) INPUT_0 [15:0] $end
+$var wire 16 9 INPUT_1 [15:0] $end
+$var wire 16 I INPUT_2 [15:0] $end
+$var wire 16 Y INPUT_3 [15:0] $end
+$var wire 16 i INPUT_4 [15:0] $end
+$var wire 16 y INPUT_5 [15:0] $end
+$var wire 16 0& INPUT_6 [15:0] $end
+$var wire 16 @& INPUT_7 [15:0] $end
+$var wire 16 P& INPUT_8 [15:0] $end
+$var wire 16 `& INPUT_9 [15:0] $end
+$var wire 16 p& INPUT_10 [15:0] $end
+$var wire 16 '' INPUT_11 [15:0] $end
+$var wire 16 7' INPUT_12 [15:0] $end
+$var wire 16 G' INPUT_13 [15:0] $end
+$var wire 16 W' INPUT_14 [15:0] $end
+$var wire 16 g' INPUT_15 [15:0] $end
+$var wire 16 w' INPUT_16 [15:0] $end
+$var wire 16 .( INPUT_17 [15:0] $end
+$var wire 16 >( INPUT_18 [15:0] $end
+$var wire 16 N( INPUT_19 [15:0] $end
+$var wire 16 ^( INPUT_20 [15:0] $end
+$var wire 16 n( INPUT_21 [15:0] $end
+$var wire 16 ~( INPUT_22 [15:0] $end
+$var wire 16 5) INPUT_23 [15:0] $end
+$var wire 16 E) INPUT_24 [15:0] $end
+$var wire 16 U) INPUT_25 [15:0] $end
+$var wire 16 e) INPUT_26 [15:0] $end
+$var wire 16 u) INPUT_27 [15:0] $end
+$var wire 16 ,* INPUT_28 [15:0] $end
+$var wire 16 <* INPUT_29 [15:0] $end
+$var wire 16 L* INPUT_30 [15:0] $end
+$var wire 16 \* INPUT_31 [15:0] $end
+$var wire 16 l* INPUT_32 [15:0] $end
+$var wire 16 |* INPUT_33 [15:0] $end
+$var wire 16 3+ INPUT_34 [15:0] $end
+$var wire 16 C+ INPUT_35 [15:0] $end
+$var wire 16 S+ INPUT_36 [15:0] $end
+$var wire 16 c+ INPUT_37 [15:0] $end
+$var wire 16 s+ INPUT_38 [15:0] $end
+$var wire 16 *, INPUT_39 [15:0] $end
+$var wire 16 :, INPUT_40 [15:0] $end
+$var wire 16 J, INPUT_41 [15:0] $end
+$var wire 16 Z, INPUT_42 [15:0] $end
+$var wire 16 j, INPUT_43 [15:0] $end
+$var wire 16 z, INPUT_44 [15:0] $end
+$var wire 16 1- INPUT_45 [15:0] $end
+$var wire 16 A- INPUT_46 [15:0] $end
+$var wire 16 Q- INPUT_47 [15:0] $end
+$var wire 16 a- INPUT_48 [15:0] $end
+$var wire 16 q- INPUT_49 [15:0] $end
+$var wire 16 (. INPUT_50 [15:0] $end
+$var wire 16 8. INPUT_51 [15:0] $end
+$var wire 16 H. INPUT_52 [15:0] $end
+$var wire 16 X. INPUT_53 [15:0] $end
+$var wire 16 h. INPUT_54 [15:0] $end
+$var wire 16 x. INPUT_55 [15:0] $end
+$var wire 16 // INPUT_56 [15:0] $end
+$var wire 16 ?/ INPUT_57 [15:0] $end
+$var wire 16 O/ INPUT_58 [15:0] $end
+$var wire 16 _/ INPUT_59 [15:0] $end
+$var wire 16 o/ INPUT_60 [15:0] $end
+$var wire 16 &0 INPUT_61 [15:0] $end
+$var wire 16 60 INPUT_62 [15:0] $end
+$var wire 16 F0 INPUT_63 [15:0] $end
+$var wire 16 V0 INPUT_64 [15:0] $end
+$var wire 16 f0 INPUT_65 [15:0] $end
+$var wire 16 v0 INPUT_66 [15:0] $end
+$var wire 16 -1 INPUT_67 [15:0] $end
+$var wire 16 =1 INPUT_68 [15:0] $end
+$var wire 16 M1 INPUT_69 [15:0] $end
+$var wire 16 ]1 INPUT_70 [15:0] $end
+$var wire 16 m1 INPUT_71 [15:0] $end
+$var wire 16 }1 INPUT_72 [15:0] $end
+$var wire 16 42 INPUT_73 [15:0] $end
+$var wire 16 D2 INPUT_74 [15:0] $end
+$var wire 16 T2 INPUT_75 [15:0] $end
+$var wire 16 d2 INPUT_76 [15:0] $end
+$var wire 16 t2 INPUT_77 [15:0] $end
+$var wire 16 +3 INPUT_78 [15:0] $end
+$var wire 16 ;3 INPUT_79 [15:0] $end
+$var wire 16 K3 INPUT_80 [15:0] $end
+$var wire 16 [3 INPUT_81 [15:0] $end
+$var wire 16 k3 INPUT_82 [15:0] $end
+$var wire 16 {3 INPUT_83 [15:0] $end
+$var wire 16 24 INPUT_84 [15:0] $end
+$var wire 16 B4 INPUT_85 [15:0] $end
+$var wire 16 R4 INPUT_86 [15:0] $end
+$var wire 16 b4 INPUT_87 [15:0] $end
+$var wire 16 r4 INPUT_88 [15:0] $end
+$var wire 16 )5 INPUT_89 [15:0] $end
+$var wire 16 95 INPUT_90 [15:0] $end
+$var wire 16 I5 INPUT_91 [15:0] $end
+$var wire 16 Y5 INPUT_92 [15:0] $end
+$var wire 16 i5 INPUT_93 [15:0] $end
+$var wire 16 y5 INPUT_94 [15:0] $end
+$var wire 16 06 INPUT_95 [15:0] $end
+$var wire 16 @6 INPUT_96 [15:0] $end
+$var wire 16 P6 INPUT_97 [15:0] $end
+$var wire 16 `6 INPUT_98 [15:0] $end
+$var wire 16 p6 INPUT_99 [15:0] $end
+$var wire 16 '7 INPUT_100 [15:0] $end
+$var wire 16 77 INPUT_101 [15:0] $end
+$var wire 16 G7 INPUT_102 [15:0] $end
+$var wire 16 W7 INPUT_103 [15:0] $end
+$var wire 16 g7 INPUT_104 [15:0] $end
+$var wire 16 w7 INPUT_105 [15:0] $end
+$var wire 16 .8 INPUT_106 [15:0] $end
+$var wire 16 >8 INPUT_107 [15:0] $end
+$var wire 16 N8 INPUT_108 [15:0] $end
+$var wire 16 ^8 INPUT_109 [15:0] $end
+$var wire 16 n8 INPUT_110 [15:0] $end
+$var wire 16 ~8 INPUT_111 [15:0] $end
+$var wire 16 59 INPUT_112 [15:0] $end
+$var wire 16 E9 INPUT_113 [15:0] $end
+$var wire 16 U9 INPUT_114 [15:0] $end
+$var wire 16 e9 INPUT_115 [15:0] $end
+$var wire 16 u9 INPUT_116 [15:0] $end
+$var wire 16 ,: INPUT_117 [15:0] $end
+$var wire 16 <: INPUT_118 [15:0] $end
+$var wire 16 L: INPUT_119 [15:0] $end
+$var wire 16 \: INPUT_120 [15:0] $end
+$var wire 16 l: INPUT_121 [15:0] $end
+$var wire 16 |: INPUT_122 [15:0] $end
+$var wire 16 3; INPUT_123 [15:0] $end
+$var wire 16 C; INPUT_124 [15:0] $end
+$var wire 16 S; INPUT_125 [15:0] $end
+$var wire 16 c; INPUT_126 [15:0] $end
+$var wire 16 s; INPUT_127 [15:0] $end
+$var wire 16 *< INPUT_128 [15:0] $end
+$var wire 16 :< INPUT_129 [15:0] $end
+$var wire 16 J< INPUT_130 [15:0] $end
+$var wire 16 Z< INPUT_131 [15:0] $end
+$var wire 16 j< INPUT_132 [15:0] $end
+$var wire 16 z< INPUT_133 [15:0] $end
+$var wire 16 1= INPUT_134 [15:0] $end
+$var wire 16 A= INPUT_135 [15:0] $end
+$var wire 16 Q= INPUT_136 [15:0] $end
+$var wire 16 a= INPUT_137 [15:0] $end
+$var wire 16 q= INPUT_138 [15:0] $end
+$var wire 16 (> INPUT_139 [15:0] $end
+$var wire 16 8> INPUT_140 [15:0] $end
+$var wire 16 H> INPUT_141 [15:0] $end
+$var wire 16 X> INPUT_142 [15:0] $end
+$var wire 16 h> INPUT_143 [15:0] $end
+$var wire 16 x> INPUT_144 [15:0] $end
+$var wire 16 /? INPUT_145 [15:0] $end
+$var wire 16 ?? INPUT_146 [15:0] $end
+$var wire 16 O? INPUT_147 [15:0] $end
+$var wire 16 _? INPUT_148 [15:0] $end
+$var wire 16 o? INPUT_149 [15:0] $end
+$var wire 16 &@ INPUT_150 [15:0] $end
+$var wire 16 6@ INPUT_151 [15:0] $end
+$var wire 16 F@ INPUT_152 [15:0] $end
+$var wire 16 V@ INPUT_153 [15:0] $end
+$var wire 16 f@ INPUT_154 [15:0] $end
+$var wire 16 v@ INPUT_155 [15:0] $end
+$var wire 16 -A INPUT_156 [15:0] $end
+$var wire 16 =A INPUT_157 [15:0] $end
+$var wire 16 MA INPUT_158 [15:0] $end
+$var wire 16 ]A INPUT_159 [15:0] $end
+$var wire 16 mA INPUT_160 [15:0] $end
+$var wire 16 }A INPUT_161 [15:0] $end
+$var wire 16 4B INPUT_162 [15:0] $end
+$var wire 16 DB INPUT_163 [15:0] $end
+$var wire 16 TB INPUT_164 [15:0] $end
+$var wire 16 dB INPUT_165 [15:0] $end
+$var wire 16 tB INPUT_166 [15:0] $end
+$var wire 16 +C INPUT_167 [15:0] $end
+$var wire 16 ;C INPUT_168 [15:0] $end
+$var wire 16 KC INPUT_169 [15:0] $end
+$var wire 16 [C INPUT_170 [15:0] $end
+$var wire 16 kC INPUT_171 [15:0] $end
+$var wire 16 {C INPUT_172 [15:0] $end
+$var wire 16 2D INPUT_173 [15:0] $end
+$var wire 16 BD INPUT_174 [15:0] $end
+$var wire 16 RD INPUT_175 [15:0] $end
+$var wire 16 bD INPUT_176 [15:0] $end
+$var wire 16 rD INPUT_177 [15:0] $end
+$var wire 16 )E INPUT_178 [15:0] $end
+$var wire 16 9E INPUT_179 [15:0] $end
+$var wire 16 IE INPUT_180 [15:0] $end
+$var wire 16 YE INPUT_181 [15:0] $end
+$var wire 16 iE INPUT_182 [15:0] $end
+$var wire 16 yE INPUT_183 [15:0] $end
+$var wire 16 0F INPUT_184 [15:0] $end
+$var wire 16 @F INPUT_185 [15:0] $end
+$var wire 16 PF INPUT_186 [15:0] $end
+$var wire 16 `F INPUT_187 [15:0] $end
+$var wire 16 pF INPUT_188 [15:0] $end
+$var wire 16 'G INPUT_189 [15:0] $end
+$var wire 16 7G INPUT_190 [15:0] $end
+$var wire 16 GG INPUT_191 [15:0] $end
+$var wire 16 WG INPUT_192 [15:0] $end
+$var wire 16 gG INPUT_193 [15:0] $end
+$var wire 16 wG INPUT_194 [15:0] $end
+$var wire 16 .H INPUT_195 [15:0] $end
+$var wire 16 >H INPUT_196 [15:0] $end
+$var wire 16 NH INPUT_197 [15:0] $end
+$var wire 16 ^H INPUT_198 [15:0] $end
+$var wire 16 nH INPUT_199 [15:0] $end
+$var wire 16 ~H INPUT_200 [15:0] $end
+$var wire 16 5I INPUT_201 [15:0] $end
+$var wire 16 EI INPUT_202 [15:0] $end
+$var wire 16 UI INPUT_203 [15:0] $end
+$var wire 16 eI INPUT_204 [15:0] $end
+$var wire 16 uI INPUT_205 [15:0] $end
+$var wire 16 ,J INPUT_206 [15:0] $end
+$var wire 16 <J INPUT_207 [15:0] $end
+$var wire 16 LJ INPUT_208 [15:0] $end
+$var wire 16 \J INPUT_209 [15:0] $end
+$var wire 16 lJ INPUT_210 [15:0] $end
+$var wire 16 |J INPUT_211 [15:0] $end
+$var wire 16 3K INPUT_212 [15:0] $end
+$var wire 16 CK INPUT_213 [15:0] $end
+$var wire 16 SK INPUT_214 [15:0] $end
+$var wire 16 cK INPUT_215 [15:0] $end
+$var wire 16 sK INPUT_216 [15:0] $end
+$var wire 16 *L INPUT_217 [15:0] $end
+$var wire 16 :L INPUT_218 [15:0] $end
+$var wire 16 JL INPUT_219 [15:0] $end
+$var wire 16 ZL INPUT_220 [15:0] $end
+$var wire 16 jL INPUT_221 [15:0] $end
+$var wire 16 zL INPUT_222 [15:0] $end
+$var wire 16 1M INPUT_223 [15:0] $end
+$var wire 16 AM INPUT_224 [15:0] $end
+$var wire 16 QM INPUT_225 [15:0] $end
+$var wire 16 aM INPUT_226 [15:0] $end
+$var wire 16 qM INPUT_227 [15:0] $end
+$var wire 16 (N INPUT_228 [15:0] $end
+$var wire 16 8N INPUT_229 [15:0] $end
+$var wire 16 HN INPUT_230 [15:0] $end
+$var wire 16 XN INPUT_231 [15:0] $end
+$var wire 16 hN INPUT_232 [15:0] $end
+$var wire 16 xN INPUT_233 [15:0] $end
+$var wire 16 /O INPUT_234 [15:0] $end
+$var wire 16 ?O INPUT_235 [15:0] $end
+$var wire 16 OO INPUT_236 [15:0] $end
+$var wire 16 _O INPUT_237 [15:0] $end
+$var wire 16 oO INPUT_238 [15:0] $end
+$var wire 16 &P INPUT_239 [15:0] $end
+$var wire 16 6P INPUT_240 [15:0] $end
+$var wire 16 FP INPUT_241 [15:0] $end
+$var wire 16 VP INPUT_242 [15:0] $end
+$var wire 16 fP INPUT_243 [15:0] $end
+$var wire 16 vP INPUT_244 [15:0] $end
+$var wire 16 -Q INPUT_245 [15:0] $end
+$var wire 16 =Q INPUT_246 [15:0] $end
+$var wire 16 MQ INPUT_247 [15:0] $end
+$var wire 16 ]Q INPUT_248 [15:0] $end
+$var wire 16 mQ INPUT_249 [15:0] $end
+$var wire 16 }Q INPUT_250 [15:0] $end
+$var wire 16 4R INPUT_251 [15:0] $end
+$var wire 16 DR INPUT_252 [15:0] $end
+$var wire 16 TR INPUT_253 [15:0] $end
+$var wire 16 dR INPUT_254 [15:0] $end
+$var wire 16 tR INPUT_255 [15:0] $end
+$var wire 1 +S CLK $end
+$upscope $end
+
+$enddefinitions $end
+
+#0
+b0000000000000000 verification_cycle
+
+1+S
+
+#5000
+b0000000000000001 verification_cycle
+
+0+S
+
+#15000
+b0000000000000010 verification_cycle
+
+1+S
+
+#20000
+b0000000000000011 verification_cycle
+
+0+S
+
+#30000
+b0000000000000100 verification_cycle
+
+1+S
+
+#35000
+b0000000000000101 verification_cycle
+
+0+S
+
+#45000
+b0000000000000110 verification_cycle
+
+1+S
+
+#50000
+b0000000000000111 verification_cycle
+
+0+S
+
+#60000
+b0000000000001000 verification_cycle
+
+1+S
+
+#65000
+b0000000000001001 verification_cycle
+
+0+S
+
+#70000

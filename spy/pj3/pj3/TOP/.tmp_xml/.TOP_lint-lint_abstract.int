@@ -1,0 +1,5 @@
+INPUT@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_abstract/spyglass_reports@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/html_reports/data_files/@@TOP@@lint-lint_abstract@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_abstract/spyglass_reports/moresimple.rpt@@data_files/TOP_lint-lint_abstract_moresimple.rpt@@
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_abstract/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/TOP_lint-lint_abstract_no_msg_reporting_rules.rpt@@
+PROCESS@@morelint@@abstract_view@@constraints@@area@@simulation@@sdc2sgdc@@starc@@const_intern1@@openmore@@clock-reset@@starc2002@@SpyGlass@@power_est@@latch@@dft_dsm@@starc2005@@Audits@@lint@@timing@@lowpower@@erc@@miscellaneous@@dft@@txv
+COPY@@/mnt/home/dice12/dice/proj3/spy/pj3/pj3/TOP/lint/lint_abstract/spyglass.log@@data_files/TOP_lint-lint_abstract_spyglass.log@@
