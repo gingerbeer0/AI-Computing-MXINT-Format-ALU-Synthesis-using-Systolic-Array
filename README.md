@@ -62,7 +62,8 @@ All outputs printed in the top module for debugging and verification
 
 📁 Result
 ![image](https://github.com/user-attachments/assets/88b5d775-c792-43f6-ae30-4c66de34859b)
-![image](https://github.com/user-attachments/assets/00ee98f8-1fd3-449f-b040-d133db160122)
+![image](https://github.com/user-attachments/assets/694310ed-8b83-470b-8516-dbdbaae17cc5)
+
 
 
 📌 Additional Notes
