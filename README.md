@@ -31,6 +31,8 @@ Full 16-bit MXINT encoding used to maximize numerical resolution
 
 ✅ Systolic Array Architecture
 Custom systolic design (Stair Array) enhances parallelism and data reuse
+![image](https://github.com/user-attachments/assets/cf2a1310-0076-447b-8954-390e7a1ac0f3)
+
 
 Optimized for area and power efficiency
 
@@ -43,13 +45,13 @@ Power: Total power consumption from synthesis reports
 Area: Cell and total area post-synthesis
 
 Precision (SNR):
+![_5Ctext_7BSNR_20(dB)_7D_20_3D_2010_20_5Ccdot_20_5Clog__7B10_7D_20_5Cleft(_20_5Cfrac_7B_5Csum__7Bi_3D0_7D_5E_7B895_7D_20x__5Ctext_7Bexpected_7D_5Bi_5D_5E2_7D_7B_5Csum__7Bi_3D0_7D_5E_7B895_7D_20_5Cleft(x__5Ctext_7Be](https://github.com/user-attachments/assets/0127e5aa-c028-4e99-ae32-e74deab95cb0)
 
 Throughput: Clock cycle × clock speed (averaged over Add, Mul, Sub)
 
-📐 Architecture Diagram
-(Insert Block Diagram Image Here)
-Example:
-![Block Diagram](./images/block_diagram.png)
+📐 Architecture Diagram(Brief ver.)
+![image](https://github.com/user-attachments/assets/ef83383a-14f5-4c02-b974-fb39486a66d5)
+
 
 🧪 Verification & Testing
 Random 256-value FP16 inputs used
@@ -58,14 +60,10 @@ RTL and gate-level simulations performed
 
 All outputs printed in the top module for debugging and verification
 
-📁 Reports
-report_timing -delay_type max → *_timing_report_max.txt
+📁 Result
+![image](https://github.com/user-attachments/assets/88b5d775-c792-43f6-ae30-4c66de34859b)
+![image](https://github.com/user-attachments/assets/00ee98f8-1fd3-449f-b040-d133db160122)
 
-report_timing -delay_type min → *_timing_report_min.txt
-
-report_area → *_area_report.txt
-
-report_power → *_power_report.txt
 
 📌 Additional Notes
 SpyGlass used for linting and static checks
