@@ -1,5 +1,17 @@
-MXINT Format ALU Synthesis using Systolic Array
-This project implements an ALU (Adder, Subtractor, Multiplier) using the MXINT (Microscaling Integer) format, commonly applied in deep learning for quantized, efficient computation. By leveraging a systolic array architecture, we significantly improve power, area, and throughput (PPA).
+# AI-Computing-MXINT-Format-ALU-Synthesis-using-Systolic-Array
+
+This project presents a **hardware-efficient ALU design** synthesized with a **systolic array architecture** using a custom **MXINT (Mixed-Precision Integer) format**, specifically tailored for **AI computing applications**.
+
+Modern AI workloads demand **high-throughput, low-latency, and parallelized integer operations**, especially in edge and embedded environments where traditional floating-point units may be inefficient. This project addresses that challenge by:
+
+- Leveraging a **systolic array** structure for scalable and parallel processing,
+- Implementing a **custom MXINT format** optimized for AI-relevant precision needs,
+- Synthesizing the ALU in a way that aligns with **AI accelerator design principles**.
+
+This architecture is particularly suitable for inference tasks in machine learning models such as CNNs, transformers, and lightweight embedded AI systems, where integer-based MAC (multiply-accumulate) operations dominate.
+
+![image](https://github.com/user-attachments/assets/393b66cc-4870-4272-8e8f-d117910d47f7)
+
 
 🔧 Project Overview
 Designed and synthesized a 16-bit ALU using MXINT format
